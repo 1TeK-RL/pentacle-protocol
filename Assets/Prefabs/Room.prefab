@@ -46,7 +46,11 @@ PrefabInstance:
     - target: {fileID: 1073911014893490000, guid: 9ecaa99fa43d5f3498f2cbf4cd51f195, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: 1427f6c938c6b6346a695bb64f56ba99, type: 3}
+      objectReference: {fileID: -7065454459409281766, guid: 6321400b7749e9946800b44ab65e9711, type: 3}
+    - target: {fileID: 1073911014893490000, guid: 9ecaa99fa43d5f3498f2cbf4cd51f195, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5601977567761760125, guid: 9ecaa99fa43d5f3498f2cbf4cd51f195, type: 3}
       propertyPath: nextRoomPOV
       value: 
@@ -57,7 +61,7 @@ PrefabInstance:
       objectReference: {fileID: 5763770771728989357}
     - target: {fileID: 7323902647012444986, guid: 9ecaa99fa43d5f3498f2cbf4cd51f195, type: 3}
       propertyPath: m_Name
-      value: Back
+      value: C
       objectReference: {fileID: 0}
     - target: {fileID: 8852335856565651994, guid: 9ecaa99fa43d5f3498f2cbf4cd51f195, type: 3}
       propertyPath: m_LocalPosition.x
@@ -125,7 +129,11 @@ PrefabInstance:
     - target: {fileID: 1073911014893490000, guid: 9ecaa99fa43d5f3498f2cbf4cd51f195, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: 06881a54980d44b40b224141096b1866, type: 3}
+      objectReference: {fileID: -4076184554326628226, guid: 17190b939568f134881ca830ea9f305f, type: 3}
+    - target: {fileID: 1073911014893490000, guid: 9ecaa99fa43d5f3498f2cbf4cd51f195, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5601977567761760125, guid: 9ecaa99fa43d5f3498f2cbf4cd51f195, type: 3}
       propertyPath: nextRoomPOV
       value: 
@@ -136,7 +144,7 @@ PrefabInstance:
       objectReference: {fileID: 1617247341272179255}
     - target: {fileID: 7323902647012444986, guid: 9ecaa99fa43d5f3498f2cbf4cd51f195, type: 3}
       propertyPath: m_Name
-      value: Right
+      value: B
       objectReference: {fileID: 0}
     - target: {fileID: 8852335856565651994, guid: 9ecaa99fa43d5f3498f2cbf4cd51f195, type: 3}
       propertyPath: m_LocalPosition.x
@@ -211,7 +219,7 @@ PrefabInstance:
       objectReference: {fileID: 2227340775494762574}
     - target: {fileID: 7323902647012444986, guid: 9ecaa99fa43d5f3498f2cbf4cd51f195, type: 3}
       propertyPath: m_Name
-      value: Front
+      value: A
       objectReference: {fileID: 0}
     - target: {fileID: 8852335856565651994, guid: 9ecaa99fa43d5f3498f2cbf4cd51f195, type: 3}
       propertyPath: m_LocalPosition.x
@@ -279,7 +287,11 @@ PrefabInstance:
     - target: {fileID: 1073911014893490000, guid: 9ecaa99fa43d5f3498f2cbf4cd51f195, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: 29699e52b090b4548989807d22740c45, type: 3}
+      objectReference: {fileID: 5435322880157150223, guid: 65ea98aeceb4f114cb32d29a6c2f21a8, type: 3}
+    - target: {fileID: 1073911014893490000, guid: 9ecaa99fa43d5f3498f2cbf4cd51f195, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5601977567761760125, guid: 9ecaa99fa43d5f3498f2cbf4cd51f195, type: 3}
       propertyPath: nextRoomPOV
       value: 
@@ -290,7 +302,7 @@ PrefabInstance:
       objectReference: {fileID: 8952730625397299123}
     - target: {fileID: 7323902647012444986, guid: 9ecaa99fa43d5f3498f2cbf4cd51f195, type: 3}
       propertyPath: m_Name
-      value: Left
+      value: D
       objectReference: {fileID: 0}
     - target: {fileID: 8852335856565651994, guid: 9ecaa99fa43d5f3498f2cbf4cd51f195, type: 3}
       propertyPath: m_LocalPosition.x

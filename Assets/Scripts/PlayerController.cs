@@ -16,5 +16,7 @@ public class PlayerController : MonoBehaviour
     {
         transform.position = newPos;
         transform.rotation = newRot;
+
+        transform.position = new Vector3(transform.position.x, transform.position.y, -1);
     }
 }
