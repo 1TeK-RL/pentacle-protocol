@@ -748,6 +748,50 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 2495592292533874399, guid: e330d9cee565aaf42bbb6689324ded6d, type: 3}
   m_PrefabInstance: {fileID: 846134705}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &849898736
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 849898738}
+  - component: {fileID: 849898737}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &849898737
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 849898736}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea8a5d1bee7215945b9a418a83fc0d29, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!4 &849898738
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 849898736}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &967332235 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1261515823451711766, guid: bdd23d105bda7fc4d9563d198c01e8cb, type: 3}
@@ -1473,10 +1517,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 5237538337152954122, guid: 304319c12ed781444bd5736eaaafd021, type: 3}
-      propertyPath: hoverCursor
-      value: 
-      objectReference: {fileID: 2800000, guid: 1c04e9a4b0619e644b0b0afbef079973, type: 3}
     - target: {fileID: 5488154121957183095, guid: 304319c12ed781444bd5736eaaafd021, type: 3}
       propertyPath: m_Name
       value: Player
@@ -1531,6 +1571,7 @@ SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
   - {fileID: 619394802}
+  - {fileID: 849898738}
   - {fileID: 7568187764475820812}
   - {fileID: 2085491150}
   - {fileID: 1249821528}
