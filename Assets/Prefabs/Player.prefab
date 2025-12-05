@@ -167,7 +167,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8817401397746918918}
-  - component: {fileID: 5237538337152954122}
   - component: {fileID: 7580078549793593876}
   m_Layer: 0
   m_Name: Player
@@ -192,22 +191,6 @@ Transform:
   - {fileID: 4206074460526561169}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &5237538337152954122
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5488154121957183095}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 372fd8fe9046b4e4bbf5ca709a8be60a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  defaultCursor: {fileID: 2800000, guid: 54ac83923ef7d98469a1ba3ca1c2d8a0, type: 3}
-  hoverCursor: {fileID: 2800000, guid: 1c04e9a4b0619e644b0b0afbef079973, type: 3}
-  arrowCursor: {fileID: 2800000, guid: ed4dd6c5eda7c33428361af329f1e198, type: 3}
-  cursorPosition: {x: 0, y: 0}
 --- !u!114 &7580078549793593876
 MonoBehaviour:
   m_ObjectHideFlags: 0

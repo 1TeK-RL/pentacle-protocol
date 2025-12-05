@@ -14,21 +14,23 @@ public class AudioManager : MonoBehaviour
         }
 
         Instance = this;
-        DontDestroyOnLoad(gameObject);
     }
 
     private void OnEnable()
     {
-        InteractionEvents.soundMovePlayerTo += LaunchAudioFootsteps;
+        EventManager.Instance.OnPlayerMove += PlayAudioFootsteps;
     }
 
     private void OnDisable()
     {
-        InteractionEvents.soundMovePlayerTo -= LaunchAudioFootsteps;
+        EventManager.Instance.OnPlayerMove -= PlayAudioFootsteps;
     }
 
-    void LaunchAudioFootsteps()
+    void PlayAudioFootsteps(PlayerMoveEvent playerMoveEvent)
     {
-        RuntimeManager.PlayOneShot("event:/Footsteps");
+        if (playerMoveEvent.playSound)
+        {
+            RuntimeManager.PlayOneShot("event:/Footsteps");
+        }
     }
 }

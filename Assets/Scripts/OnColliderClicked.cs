@@ -14,7 +14,6 @@ public class OnColliderClicked : MonoBehaviour
 
     private void OnMouseDown()
     {
-        InteractionEvents.movePlayerTo?.Invoke(nextRoomPOV.transform.position, nextRoomPOV.transform.rotation);
-        InteractionEvents.soundMovePlayerTo?.Invoke();
+        EventManager.Instance.PlayerMove(nextRoomPOV.transform.position, nextRoomPOV.transform.rotation);
     }
 }

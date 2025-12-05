@@ -1,21 +1,12 @@
 using UnityEngine;
 
-public enum CursorType
-{
-    Default,
-    Hover,
-    Arrow
-}
-
 public class CursorManager : MonoBehaviour
 {
     public static CursorManager Instance { get; private set; }
 
     [SerializeField] private Texture2D defaultCursor;
-    [SerializeField] private Texture2D hoverCursor;
     [SerializeField] private Texture2D arrowCursor;
-
-    [SerializeField] private Vector2 cursorPosition = Vector2.zero;
+    [SerializeField] private Texture2D hoverCursor;
 
     private void Awake()
     {
@@ -26,12 +17,11 @@ public class CursorManager : MonoBehaviour
         }
 
         Instance = this;
-        DontDestroyOnLoad(gameObject);
     }
 
     private void Start()
     {
-        Cursor.SetCursor(defaultCursor, cursorPosition, CursorMode.Auto);
+        Cursor.SetCursor(defaultCursor, Vector2.zero, CursorMode.Auto);
     }
 
     public void SetCursorType(CursorType cursorType)
@@ -39,16 +29,16 @@ public class CursorManager : MonoBehaviour
         switch (cursorType)
         {
             case CursorType.Default:
-                Cursor.SetCursor(defaultCursor, cursorPosition, CursorMode.Auto);
-                break;
-            case CursorType.Hover:
-                Cursor.SetCursor(hoverCursor, cursorPosition, CursorMode.Auto);
+                Cursor.SetCursor(defaultCursor, Vector2.zero, CursorMode.Auto);
                 break;
             case CursorType.Arrow:
-                Cursor.SetCursor(arrowCursor, cursorPosition, CursorMode.Auto);
+                Cursor.SetCursor(arrowCursor, Vector2.zero, CursorMode.Auto);
+                break;
+            case CursorType.Hover:
+                Cursor.SetCursor(hoverCursor, Vector2.zero, CursorMode.Auto);
                 break;
             default:
-                Cursor.SetCursor(defaultCursor, cursorPosition, CursorMode.Auto);
+                Cursor.SetCursor(defaultCursor, Vector2.zero, CursorMode.Auto);
                 break;
         }
     }
