@@ -1,14 +1,6 @@
-using System.Collections;
+using System;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI;
-
-public enum itemState
-{
-    NotInInventory,
-    Pentacled,
-    NotPentacled
-}
 
 public class GameManager : MonoBehaviour
 {
@@ -23,14 +15,24 @@ public class GameManager : MonoBehaviour
     [SerializeField]
     private DialogAsset charonDialog2;
 
-    private List<PentacleItem> deskInventory;
-    private List<PentacleItem> infernetInventory;
-
-    private Dictionary<PentacleItem, itemState> itemDictionary;
-
     [SerializeField] private Dictionary<string, bool> worldStates = new();
 
+    [Header("Collectible Items for debug")]
+    [SerializeField] private CollectibleItem coinItem;
+    [SerializeField] private CollectibleItem eyeItem;
+
+    [Header("Dialog Assets")]
+    [SerializeField] private DialogAsset charonDialog1;
+    [SerializeField] private DialogAsset charonDialog2;
+
+    private Dictionary<CollectibleItem, InventoryState> inventory;
     private DialogManager dialogManager;
+
+    public enum InventoryState
+    {
+        Acquired,
+        Pentacled
+    }
 
     private void Awake()
     {
@@ -42,10 +44,12 @@ public class GameManager : MonoBehaviour
 
         Instance = this;
 
+        inventory = new Dictionary<CollectibleItem, InventoryState>();
         dialogManager = DialogManager.Instance;
 
-        deskInventory = new List<PentacleItem>();
-        infernetInventory = new List<PentacleItem>();
+        // Initialize inventory with starting items for debub
+        AddItem(coinItem);
+        AddItem(eyeItem);
     }
 
     public void DebugThis(string message)
@@ -53,36 +57,37 @@ public class GameManager : MonoBehaviour
         Debug.Log(message);
     }
 
-    public void AddItem(string itemName)
+    public void AddItem(CollectibleItem item)
     {
-        if (itemName == "coin")
-        {
-            deskInventory.Add(coinItem);
-        }
+        if (!inventory.ContainsKey(item))
+            inventory.Add(item, InventoryState.Acquired);
     }
 
-    public bool HasItem(PentacleItem item)
+    public bool HasItem(CollectibleItem item)
     {
-        if (infernetInventory.Contains(item))
-        {
-            return true;
-        }
+        return inventory.ContainsKey(item);
+    }
+
+    public void ChangeItemState(CollectibleItem item, InventoryState state)
+    {
+        if (HasItem(item))
+            inventory[item] = state;
         else
-        {
-            return false;
-        }
+            Debug.LogWarning($"Trying to change state of item '{item.name}' not in inventory.");
+    }
+
+    public void RemovePentacledFromAll()
+    {
+        foreach (var key in new List<CollectibleItem>(inventory.Keys))
+            inventory[key] = InventoryState.Acquired;
     }
 
     public void TalkToCharon()
     {
-        if (HasItem(coinItem)) {
+        if (HasItem(coinItem))
             dialogManager.StartDialog(charonDialog2);
-        }
         else
-        {
             dialogManager.StartDialog(charonDialog1);
-        }
-
     }
 
     public void SetWorldState(string povName)
@@ -106,5 +111,10 @@ public class GameManager : MonoBehaviour
             worldStates.Add(povName, false);
             return false;
         }
+    }
+    
+    public List<CollectibleItem> GetAcquiredItems()
+    {
+        return new List<CollectibleItem>(inventory.Keys);
     }
 }
