@@ -11,19 +11,13 @@ public class SceneLoader : MonoBehaviour
         EventManager.Instance.RegisterSceneLoader(this);
     }
 
-    public async Task LoadSceneAsync(string sceneName)
+    public async Task PlayCutsceneAsync(string cutsceneScene, string nextScene)
     {
         if (!string.IsNullOrEmpty(currentGameplayScene))
         {
             await SceneManager.UnloadSceneAsync(currentGameplayScene).ToTask();
         }
 
-        await SceneManager.LoadSceneAsync(sceneName, LoadSceneMode.Additive).ToTask();
-        currentGameplayScene = sceneName;
-    }
-
-    public async Task PlayCutsceneAsync(string cutsceneScene, string nextScene)
-    {
         await SceneManager.LoadSceneAsync(cutsceneScene, LoadSceneMode.Additive).ToTask();
 
         TaskCompletionSource<bool> cutsceneFinished = new();
@@ -31,6 +25,8 @@ public class SceneLoader : MonoBehaviour
         await cutsceneFinished.Task;
 
         await SceneManager.UnloadSceneAsync(cutsceneScene).ToTask();
-        await LoadSceneAsync(nextScene);
+
+        await SceneManager.LoadSceneAsync(nextScene, LoadSceneMode.Additive).ToTask();
+        currentGameplayScene = nextScene;
     }
 }

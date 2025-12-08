@@ -104,7 +104,7 @@ public class PentacleManager : MonoBehaviour
 
     private IEnumerator LoadNextSceneCoroutine()
     {
-        var loadTask = EventManager.Instance.SceneLoader.LoadSceneAsync("MovementsScene");
+        var loadTask = EventManager.Instance.SceneLoader.PlayCutsceneAsync("GoIn", "MovementsScene");
 
         while (!loadTask.IsCompleted)
             yield return null;
