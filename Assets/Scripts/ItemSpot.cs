@@ -1,8 +1,12 @@
+using System;
 using UnityEngine;
 using UnityEngine.EventSystems;
 
 public class ItemSpot : MonoBehaviour, IDropHandler
 {
+    [SerializeField]
+    private AnimatedSprite fire;
+
     public void OnDrop(PointerEventData eventData)
     {
         GameObject droppedObject = eventData.pointerDrag;
@@ -22,4 +26,37 @@ public class ItemSpot : MonoBehaviour, IDropHandler
 
     }
 
+    public PentacleItem GetPentacleItem()
+    {
+        if (transform.childCount == 0)
+            return null;
+
+        return transform.GetChild(0).GetComponent<PentacleItem>();
+    }
+
+    public void LitOnFire()
+    {
+        if (fire != null)
+        {
+            fire.gameObject.SetActive(true);
+            fire.PlayAnimation();
+        }
+        else
+        {
+            Debug.Log("No fire on this spot");
+        }
+    }
+
+    public void StopFire()
+    {
+        if (fire != null)
+        {
+            fire.PauseAnimation();
+            fire.gameObject.SetActive(false);
+        }
+        else
+        {
+            Debug.Log("No fire on this spot");
+        }
+    }
 }

@@ -4,15 +4,24 @@ using UnityEngine.UI;
 
 public class PentacleItem : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragHandler
 {
-    private Transform parentAfterDrag;
 
     [SerializeField]
     private Image image;
 
+    private Transform parentAfterDrag;
+    private Canvas canvas;
+
+
+
+    private void Awake()
+    {
+        canvas = GetComponentInParent<Canvas>();
+    }
+
     public void OnBeginDrag(PointerEventData eventData)
     {
         parentAfterDrag = transform.parent;
-        transform.SetParent(transform.root);   // Keep it inside the canvas
+        transform.SetParent(canvas.transform);   // Keep it inside the canvas
         transform.SetAsLastSibling();
         image.raycastTarget = false;
     }

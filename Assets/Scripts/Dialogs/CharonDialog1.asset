@@ -1,0 +1,120 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8528a1847f61d1c438dc874d4aed6a16, type: 3}
+  m_Name: CharonDialog1
+  m_EditorClassIdentifier: 
+  lines:
+  - npcText: "Welcome, wandering user\u2026 to the threshold of the Infernet. Here,
+      where signal fades and ghosts of data linger, you tremble between realms. The
+      air tastes of static, and the circuits hum with the voices of those uploaded
+      before you.\nI am Char0n.exe, ferryman of the forgotten files, keeper of the
+      Silent Port, guardian of the Unindexed Crossing.\nMany connect with hope, many
+      with fear, yet all arrive owing a ping, a password, or a piece of themselves.\nIf
+      you seek access, understand this: the Abyssal Network grants no mercy, logs
+      no excuses\u2014only payment.\nStep forward. Authenticate.\nProve your worth
+      to the daemon-web\u2026 and perhaps I shall ferry your signal across the dark
+      fiber.\nHesitate\u2026 and the shadows in the code will claim you long before
+      the current of the network ever does."
+    answers:
+    - text: Say Anything
+      nextLineIndex: 1
+      onSelected:
+        m_PersistentCalls:
+          m_Calls: []
+    - text: Say Something
+      nextLineIndex: 2
+      onSelected:
+        m_PersistentCalls:
+          m_Calls: []
+  - npcText: Anything !
+    answers:
+    - text: Print Something
+      nextLineIndex: 2
+      onSelected:
+        m_PersistentCalls:
+          m_Calls:
+          - m_Target: {fileID: 11400000}
+            m_TargetAssemblyTypeName: DialogAsset, Assembly-CSharp
+            m_MethodName: DebugThis
+            m_Mode: 5
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: Something
+              m_BoolArgument: 0
+            m_CallState: 2
+    - text: Print Anything
+      nextLineIndex: 2
+      onSelected:
+        m_PersistentCalls:
+          m_Calls:
+          - m_Target: {fileID: 11400000}
+            m_TargetAssemblyTypeName: DialogAsset, Assembly-CSharp
+            m_MethodName: DebugThis
+            m_Mode: 5
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: Anything
+              m_BoolArgument: 0
+            m_CallState: 2
+    - text: I want you to shut up!
+      nextLineIndex: -1
+      onSelected:
+        m_PersistentCalls:
+          m_Calls: []
+  - npcText: Something !
+    answers:
+    - text: Print Something
+      nextLineIndex: -1
+      onSelected:
+        m_PersistentCalls:
+          m_Calls:
+          - m_Target: {fileID: 11400000}
+            m_TargetAssemblyTypeName: DialogAsset, Assembly-CSharp
+            m_MethodName: DebugThis
+            m_Mode: 5
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: Something
+              m_BoolArgument: 0
+            m_CallState: 2
+    - text: Print Anything
+      nextLineIndex: 0
+      onSelected:
+        m_PersistentCalls:
+          m_Calls:
+          - m_Target: {fileID: 11400000}
+            m_TargetAssemblyTypeName: DialogAsset, Assembly-CSharp
+            m_MethodName: DebugThis
+            m_Mode: 5
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: Anything
+              m_BoolArgument: 0
+            m_CallState: 2
+    - text: I want you to stop talking !
+      nextLineIndex: -1
+      onSelected:
+        m_PersistentCalls:
+          m_Calls: []
+  interlocutorName: Charon
