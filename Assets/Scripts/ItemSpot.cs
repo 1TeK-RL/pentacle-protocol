@@ -29,7 +29,10 @@ public class ItemSpot : MonoBehaviour, IDropHandler
     public PentacleItem GetPentacleItem()
     {
         if (transform.childCount == 0)
+        {
+            Debug.Log("returning null");
             return null;
+        }
 
         return transform.GetChild(0).GetComponent<PentacleItem>();
     }

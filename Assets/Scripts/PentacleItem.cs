@@ -1,3 +1,4 @@
+using TMPro;
 using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
@@ -8,8 +9,13 @@ public class PentacleItem : MonoBehaviour, IBeginDragHandler, IDragHandler, IEnd
     [SerializeField]
     private Image image;
 
+    [SerializeField]
+    private TMP_Text itemNameText;
+
     private Transform parentAfterDrag;
     private Canvas canvas;
+
+    private CollectibleItem itemData;
 
 
 
@@ -45,5 +51,17 @@ public class PentacleItem : MonoBehaviour, IBeginDragHandler, IDragHandler, IEnd
     public Transform GetParent()
     {
         return parentAfterDrag;
+    }
+
+    public void Initialize(CollectibleItem itemData)
+    {
+        this.itemData = itemData;
+        image.sprite = itemData.itemImage;
+        itemNameText.text = itemData.itemName;
+    }
+
+    public CollectibleItem GetItemData()
+    {
+        return itemData;
     }
 }

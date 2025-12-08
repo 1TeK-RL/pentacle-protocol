@@ -1,32 +1,27 @@
-using System.Collections;
+using System;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI;
-using static UnityEditor.Progress;
 
 public class GameManager : MonoBehaviour
 {
     public static GameManager Instance { get; private set; }
 
-    [SerializeField]
-    private List<ItemSpot> PentacleSlots;
+    [Header("Collectible Items for debug")]
+    [SerializeField] private CollectibleItem coinItem;
+    [SerializeField] private CollectibleItem eyeItem;
 
-    [SerializeField]
-    private GridLayoutGroup inventoryGrid;
+    [Header("Dialog Assets")]
+    [SerializeField] private DialogAsset charonDialog1;
+    [SerializeField] private DialogAsset charonDialog2;
 
-    [SerializeField]
-    private PentacleItem coinItem;
-
-    [SerializeField]
-    private DialogAsset charonDialog1;
-
-    [SerializeField]
-    private DialogAsset charonDialog2;
-
-    private List<PentacleItem> deskInventory;
-    private List<PentacleItem> infernetInventory;
-
+    private Dictionary<CollectibleItem, InventoryState> inventory;
     private DialogManager dialogManager;
+
+    public enum InventoryState
+    {
+        Acquired,
+        Pentacled
+    }
 
     private void Awake()
     {
@@ -39,10 +34,12 @@ public class GameManager : MonoBehaviour
         Instance = this;
         DontDestroyOnLoad(gameObject);
 
+        inventory = new Dictionary<CollectibleItem, InventoryState>();
         dialogManager = DialogManager.Instance;
 
-        deskInventory = new List<PentacleItem>();
-        infernetInventory = new List<PentacleItem>();
+        // Initialize inventory with starting items for debub
+        AddItem(coinItem);
+        AddItem(eyeItem);
     }
 
     public void DebugThis(string message)
@@ -50,97 +47,41 @@ public class GameManager : MonoBehaviour
         Debug.Log(message);
     }
 
-    public void AddItem(string itemName)
+    public void AddItem(CollectibleItem item)
     {
-        if (itemName == "coin")
-        {
-            deskInventory.Add(coinItem);
-        }
+        if (!inventory.ContainsKey(item))
+            inventory.Add(item, InventoryState.Acquired);
     }
 
-    public bool HasItem(PentacleItem item)
+    public bool HasItem(CollectibleItem item)
     {
-        if (infernetInventory.Contains(item))
-        {
-            return true;
-        }
-        else
-        {
-            return false;
-        }
+        return inventory.ContainsKey(item);
     }
+
+    public void ChangeItemState(CollectibleItem item, InventoryState state)
+    {
+        if (HasItem(item))
+            inventory[item] = state;
+        else
+            Debug.LogWarning($"Trying to change state of item '{item.name}' not in inventory.");
+    }
+
+    public void RemovePentacledFromAll()
+    {
+        foreach (var key in new List<CollectibleItem>(inventory.Keys))
+            inventory[key] = InventoryState.Acquired;
+    }
+
     public void TalkToCharon()
     {
-        if (HasItem(coinItem)) {
+        if (HasItem(coinItem))
             dialogManager.StartDialog(charonDialog2);
-        }
         else
-        {
             dialogManager.StartDialog(charonDialog1);
-        }
-
     }
 
-    public void RefreshInventory()
+    public List<CollectibleItem> GetAcquiredItems()
     {
-        int slotCount = inventoryGrid.transform.childCount;
-        int itemCount = deskInventory.Count;
-
-        for (int i = 0; i < slotCount; i++)
-        {
-            Transform slot = i < slotCount ? inventoryGrid.transform.GetChild(i) : null;
-
-            // clear slot if it exists
-            if (slot != null && slot.childCount > 0)
-                Destroy(slot.GetChild(0).gameObject);
-
-            // spawn item if available
-            if (i < itemCount)
-                Instantiate(deskInventory[i], slot);
-        }
+        return new List<CollectibleItem>(inventory.Keys);
     }
-
-    public void StartPentagramProtocol()
-    {
-        StartCoroutine(PentagramRoutine());
-    }
-
-    private IEnumerator PentagramRoutine()
-    {
-        foreach (var slot in PentacleSlots)
-        {
-            // if it has an item
-            if (slot.transform.childCount >0 )
-            {
-                // add the current item placed in the slot to the infernet inventory
-                infernetInventory.Add(slot.GetPentacleItem());
-
-                slot.LitOnFire();
-
-                Debug.Log("FIREEEE");
-
-                // wait one second before doing the next one
-                yield return new WaitForSeconds(2f);
-
-            }
-        }
-
-        // send player to other scene here
-
-
-
-        foreach (var slot in PentacleSlots)
-        {
-            // if it has an item
-            if (slot.transform.childCount > 0)
-            {
-
-                // stop animation and hide fires
-                slot.StopFire();
-
-            }
-        }
-        
-    }
-
 }

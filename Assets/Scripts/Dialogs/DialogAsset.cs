@@ -14,9 +14,9 @@ public class DialogAsset : ScriptableObject
         GameManager.Instance.DebugThis(message);
     }
 
-    public void GivePentacleItem(string itemName)
+    public void GivePentacleItem(CollectibleItem item)
     {
-        GameManager.Instance.AddItem(itemName);
+        GameManager.Instance.AddItem(item);
     }
 }
 
