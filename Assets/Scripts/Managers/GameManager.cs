@@ -6,15 +6,6 @@ public class GameManager : MonoBehaviour
 {
     public static GameManager Instance { get; private set; }
 
-    [SerializeField]
-    private PentacleItem coinItem;
-
-    [SerializeField]
-    private DialogAsset charonDialog1;
-
-    [SerializeField]
-    private DialogAsset charonDialog2;
-
     [SerializeField] private Dictionary<string, bool> worldStates = new();
 
     [Header("Collectible Items for debug")]
