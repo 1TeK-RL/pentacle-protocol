@@ -1,8 +1,7 @@
 using UnityEngine;
-using UnityEngine.Rendering;
 using UnityEngine.UI;
 
-public class OnButtonClicked : MonoBehaviour
+public class GoInButton : MonoBehaviour
 {
     private Button button;
 
@@ -17,6 +16,6 @@ public class OnButtonClicked : MonoBehaviour
 
     private async void OnClick()
     {
-        await EventManager.Instance.SceneLoader.LoadSceneAsync("MovementsScene");
+        await EventManager.Instance.SceneLoader.PlayCutsceneAsync("GoIn", "MovementsScene");
     }
 }

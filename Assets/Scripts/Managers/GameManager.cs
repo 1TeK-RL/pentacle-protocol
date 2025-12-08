@@ -2,17 +2,17 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-using static UnityEditor.Progress;
+
+public enum itemState
+{
+    NotInInventory,
+    Pentacled,
+    NotPentacled
+}
 
 public class GameManager : MonoBehaviour
 {
     public static GameManager Instance { get; private set; }
-
-    [SerializeField]
-    private List<ItemSpot> PentacleSlots;
-
-    [SerializeField]
-    private GridLayoutGroup inventoryGrid;
 
     [SerializeField]
     private PentacleItem coinItem;
@@ -26,6 +26,10 @@ public class GameManager : MonoBehaviour
     private List<PentacleItem> deskInventory;
     private List<PentacleItem> infernetInventory;
 
+    private Dictionary<PentacleItem, itemState> itemDictionary;
+
+    [SerializeField] private Dictionary<string, bool> worldStates = new();
+
     private DialogManager dialogManager;
 
     private void Awake()
@@ -37,7 +41,6 @@ public class GameManager : MonoBehaviour
         }
 
         Instance = this;
-        DontDestroyOnLoad(gameObject);
 
         dialogManager = DialogManager.Instance;
 
@@ -69,6 +72,7 @@ public class GameManager : MonoBehaviour
             return false;
         }
     }
+
     public void TalkToCharon()
     {
         if (HasItem(coinItem)) {
@@ -81,66 +85,26 @@ public class GameManager : MonoBehaviour
 
     }
 
-    public void RefreshInventory()
+    public void SetWorldState(string povName)
     {
-        int slotCount = inventoryGrid.transform.childCount;
-        int itemCount = deskInventory.Count;
-
-        for (int i = 0; i < slotCount; i++)
+        if (worldStates.ContainsKey(povName))
         {
-            Transform slot = i < slotCount ? inventoryGrid.transform.GetChild(i) : null;
+            worldStates[povName] = true;
 
-            // clear slot if it exists
-            if (slot != null && slot.childCount > 0)
-                Destroy(slot.GetChild(0).gameObject);
-
-            // spawn item if available
-            if (i < itemCount)
-                Instantiate(deskInventory[i], slot);
+            EventManager.Instance.UpdateScene();
         }
     }
 
-    public void StartPentagramProtocol()
+    public bool GetWorldState(string povName)
     {
-        StartCoroutine(PentagramRoutine());
-    }
-
-    private IEnumerator PentagramRoutine()
-    {
-        foreach (var slot in PentacleSlots)
+        if (worldStates.ContainsKey(povName))
         {
-            // if it has an item
-            if (slot.transform.childCount >0 )
-            {
-                // add the current item placed in the slot to the infernet inventory
-                infernetInventory.Add(slot.GetPentacleItem());
-
-                slot.LitOnFire();
-
-                Debug.Log("FIREEEE");
-
-                // wait one second before doing the next one
-                yield return new WaitForSeconds(2f);
-
-            }
+            return worldStates[povName];
         }
-
-        // send player to other scene here
-
-
-
-        foreach (var slot in PentacleSlots)
+        else
         {
-            // if it has an item
-            if (slot.transform.childCount > 0)
-            {
-
-                // stop animation and hide fires
-                slot.StopFire();
-
-            }
+            worldStates.Add(povName, false);
+            return false;
         }
-        
     }
-
 }

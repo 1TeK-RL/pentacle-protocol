@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class OnColliderClicked : MonoBehaviour
+public class MovementClick : MonoBehaviour
 {
     [SerializeField] private GameObject nextRoomPOV;
 

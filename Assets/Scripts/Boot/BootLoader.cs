@@ -14,8 +14,7 @@ public class BootLoader : MonoBehaviour
     private Task LoadCoreScenes()
     {
         return Task.WhenAll(
-            SceneManager.LoadSceneAsync("Managers", LoadSceneMode.Additive).ToTask(),
-            SceneManager.LoadSceneAsync("Loaders", LoadSceneMode.Additive).ToTask()
+            SceneManager.LoadSceneAsync("Managers", LoadSceneMode.Additive).ToTask()
         );
     }
 }

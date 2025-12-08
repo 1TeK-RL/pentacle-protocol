@@ -9,6 +9,8 @@ public class EventManager : MonoBehaviour
 
     public event Action<PlayerMoveEvent> OnPlayerMove;
 
+    public event Action OnUpdateScene;
+
     private void Awake()
     {
         if (Instance != null && Instance != this)
@@ -29,5 +31,10 @@ public class EventManager : MonoBehaviour
     {
         var data = new PlayerMoveEvent(pos, rot, playSound);
         OnPlayerMove?.Invoke(data);
+    }
+
+    public void UpdateScene()
+    {
+        OnUpdateScene?.Invoke();
     }
 }
