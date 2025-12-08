@@ -12,12 +12,7 @@ public class GameManager : MonoBehaviour
     [SerializeField] private CollectibleItem coinItem;
     [SerializeField] private CollectibleItem eyeItem;
 
-    [Header("Dialog Assets")]
-    [SerializeField] private DialogAsset charonDialog1;
-    [SerializeField] private DialogAsset charonDialog2;
-
     private Dictionary<CollectibleItem, InventoryState> inventory;
-    private DialogManager dialogManager;
 
     public enum InventoryState
     {
@@ -36,7 +31,6 @@ public class GameManager : MonoBehaviour
         Instance = this;
 
         inventory = new Dictionary<CollectibleItem, InventoryState>();
-        dialogManager = DialogManager.Instance;
 
         // Initialize inventory with starting items for debub
         AddItem(coinItem);
@@ -67,18 +61,21 @@ public class GameManager : MonoBehaviour
             Debug.LogWarning($"Trying to change state of item '{item.name}' not in inventory.");
     }
 
+    public bool IsItemPentacled(CollectibleItem item)
+    {
+        if (HasItem(item))
+            return inventory[item] == InventoryState.Pentacled;
+        else
+        {
+            Debug.LogWarning($"Trying to check state of item '{item.name}' not in inventory.");
+            return false;
+        }
+    }
+
     public void RemovePentacledFromAll()
     {
         foreach (var key in new List<CollectibleItem>(inventory.Keys))
             inventory[key] = InventoryState.Acquired;
-    }
-
-    public void TalkToCharon()
-    {
-        if (HasItem(coinItem))
-            dialogManager.StartDialog(charonDialog2);
-        else
-            dialogManager.StartDialog(charonDialog1);
     }
 
     public void SetWorldState(string povName)

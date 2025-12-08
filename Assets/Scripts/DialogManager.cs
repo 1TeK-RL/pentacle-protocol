@@ -2,13 +2,12 @@ using NUnit.Framework;
 using System.Collections;
 using System.Collections.Generic;
 using TMPro;
+using UnityEditor.VersionControl;
 using UnityEngine;
 using UnityEngine.UI;
 
 public class DialogManager : MonoBehaviour
 {
-    public DialogAsset dialog;
-
     [SerializeField]
     private TMP_Text interlocutorText;
 
@@ -16,7 +15,7 @@ public class DialogManager : MonoBehaviour
     private TMP_Text interlocutorName;
 
     [SerializeField]
-    private ScrollRect scrollRect;
+    private ScrollRect interlocutorScrollRect;
 
     [SerializeField]
     private GameObject dialogBox;
@@ -24,37 +23,50 @@ public class DialogManager : MonoBehaviour
     [SerializeField]
     private List<AnswerButton> answerButtons;
 
-
+    private DialogAsset currentDialog;
     private int currentIndex;
     private Coroutine revealCoroutine;
     private string currentLine;
 
-    public static DialogManager Instance { get; private set; }
+    private DialogAsset conditionalDialog;
+    private DialogAsset defaultDialog;
 
-    private void Awake()
-    {
-        if (Instance != null && Instance != this)
-        {
-            Destroy(gameObject);
-            return;
-        }
-
-        Instance = this;
-        DontDestroyOnLoad(gameObject);
-    }
+    private GameObject previousPOV;
 
     public void StartDialog(DialogAsset asset)
     {
-        dialog = asset;
+        currentDialog = asset;
         currentIndex = 0;
         dialogBox.SetActive(true);
         interlocutorName.text = asset.interlocutorName;
         ShowLine();
     }
 
+    public void StartDialogWithObjectCondition(CollectibleItem item)
+    {
+        if (GameManager.Instance.IsItemPentacled(item))
+        {
+            StartDialog(conditionalDialog);
+        }
+        else
+        {
+            StartDialog(defaultDialog);
+        }
+    }
+
+    public void SetDefaultDialog(DialogAsset asset)
+    {
+        defaultDialog = asset;
+    }
+
+    public void SetConditionalDialog(DialogAsset asset)
+    {
+        conditionalDialog = asset;
+    }
+
     public void ShowLine()
     {
-        currentLine = dialog.lines[currentIndex].npcText;
+        currentLine = currentDialog.lines[currentIndex].npcText;
 
         // Hide Buttons and the arrow, they will be activated later
         foreach (var button in answerButtons)
@@ -70,7 +82,7 @@ public class DialogManager : MonoBehaviour
     private void DisplayAnswers()
     {
         int i = 0;
-        foreach (var answer in dialog.lines[currentIndex].answers)
+        foreach (var answer in currentDialog.lines[currentIndex].answers)
         {
 
             if (!string.IsNullOrEmpty(answer.text))
@@ -94,7 +106,7 @@ public class DialogManager : MonoBehaviour
 
     public void SelectAnswer(int index)
     {
-        var answer = dialog.lines[currentIndex].answers[index];
+        var answer = currentDialog.lines[currentIndex].answers[index];
 
         answer.onSelected?.Invoke();
 
@@ -131,7 +143,7 @@ public class DialogManager : MonoBehaviour
             );
 
             // scroll down
-            scrollRect.verticalNormalizedPosition = 0f;
+            interlocutorScrollRect.verticalNormalizedPosition = 0f;
 
             // when the text is displayed entirely, show answers
             if ( i == line.Length - 1 )
@@ -149,14 +161,28 @@ public class DialogManager : MonoBehaviour
         StopCoroutine(revealCoroutine);
         interlocutorText.text = currentLine;
         // scroll down
-        scrollRect.verticalNormalizedPosition = 0f;
+        interlocutorScrollRect.verticalNormalizedPosition = 0f;
         DisplayAnswers();
     }
 
-    void EndDialog()
+    private void EndDialog()
     {   
         Debug.Log("Dialog ended");
         dialogBox.SetActive(false);
+        if (previousPOV != null)
+        {
+            EventManager.Instance.PlayerMove(previousPOV.transform.position, previousPOV.transform.rotation);
+            previousPOV = null;
+        }
     }
 
+    public bool IsInADialog()
+    {
+        return dialogBox.activeSelf;
+    }
+
+    public void SetPreviousPOV(GameObject previousPOV)
+    {
+        this.previousPOV = previousPOV;
+    }
 }
