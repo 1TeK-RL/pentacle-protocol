@@ -19,7 +19,7 @@ public class InteractablesManager : MonoBehaviour
     private void MouthDoorOpen()
     {
         Debug.Log("MouthDoor opened!");
-        mouthDoor.gameObject.SetActive(true);
+        mouthDoor.OpenDoor();
         mouthDoor.ChangeWorldState();
     }
 }

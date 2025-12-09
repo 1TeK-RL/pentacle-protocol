@@ -33,4 +33,14 @@ public class AudioManager : MonoBehaviour
             RuntimeManager.PlayOneShot("event:/Footsteps");
         }
     }
+
+    public void StartCharonDialog()
+    {
+        Debug.Log("Starting Charon Dialog");
+    }
+
+    public void StopCharonDialog()
+    {
+        Debug.Log("Stopping Charon Dialog");
+    }
 }

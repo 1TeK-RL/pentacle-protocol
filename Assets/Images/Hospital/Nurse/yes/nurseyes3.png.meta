@@ -1,0 +1,598 @@
+fileFormatVersion: 2
+guid: 2ef69f7fb8de93f46a1d86697a2c235b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3135483661229642152
+    second: nurseyes3_0
+  - first:
+      213: 4213406098155219434
+    second: nurseyes3_1
+  - first:
+      213: 2016667092611133369
+    second: nurseyes3_2
+  - first:
+      213: -6253438757118395753
+    second: nurseyes3_3
+  - first:
+      213: 7352005578259065827
+    second: nurseyes3_4
+  - first:
+      213: 5282580777517819190
+    second: nurseyes3_5
+  - first:
+      213: -4001466363106756713
+    second: nurseyes3_6
+  - first:
+      213: -3124488679148945703
+    second: nurseyes3_7
+  - first:
+      213: -8404097792919347430
+    second: nurseyes3_8
+  - first:
+      213: -2263198345759293665
+    second: nurseyes3_9
+  - first:
+      213: 3604950691003277292
+    second: nurseyes3_10
+  - first:
+      213: 3198255655996077039
+    second: nurseyes3_11
+  - first:
+      213: 1974511568375957294
+    second: nurseyes3_12
+  - first:
+      213: -4913686436547110247
+    second: nurseyes3_13
+  - first:
+      213: 7348575413200866997
+    second: nurseyes3_14
+  - first:
+      213: 8382969804907616488
+    second: nurseyes3_15
+  - first:
+      213: -6333135756138574909
+    second: nurseyes3_16
+  - first:
+      213: 3833731143833189081
+    second: nurseyes3_17
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: nurseyes3_0
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 0
+        width: 1308
+        height: 994
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a152a207c9738b20800000000000000
+      internalID: 3135483661229642152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nurseyes3_1
+      rect:
+        serializedVersion: 2
+        x: 1618
+        y: 404
+        width: 17
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae9a10fc586097a30800000000000000
+      internalID: 4213406098155219434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nurseyes3_2
+      rect:
+        serializedVersion: 2
+        x: 1635
+        y: 412
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9bf6e453904acfb10800000000000000
+      internalID: 2016667092611133369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nurseyes3_3
+      rect:
+        serializedVersion: 2
+        x: 1638
+        y: 386
+        width: 30
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79a3c4125925739a0800000000000000
+      internalID: -6253438757118395753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nurseyes3_4
+      rect:
+        serializedVersion: 2
+        x: 1656
+        y: 415
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3eb62deee12970660800000000000000
+      internalID: 7352005578259065827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nurseyes3_5
+      rect:
+        serializedVersion: 2
+        x: 1669
+        y: 380
+        width: 23
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 635a1459a3f7f4940800000000000000
+      internalID: 5282580777517819190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nurseyes3_6
+      rect:
+        serializedVersion: 2
+        x: 1622
+        y: 389
+        width: 23
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 797f85e1b8fe778c0800000000000000
+      internalID: -4001466363106756713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nurseyes3_7
+      rect:
+        serializedVersion: 2
+        x: 1663
+        y: 386
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9def89eb91693a4d0800000000000000
+      internalID: -3124488679148945703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nurseyes3_8
+      rect:
+        serializedVersion: 2
+        x: 1610
+        y: 370
+        width: 21
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1fd56b8595ae5b80800000000000000
+      internalID: -8404097792919347430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nurseyes3_9
+      rect:
+        serializedVersion: 2
+        x: 1613
+        y: 295
+        width: 73
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1ff3c078118790e0800000000000000
+      internalID: -2263198345759293665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nurseyes3_10
+      rect:
+        serializedVersion: 2
+        x: 1635
+        y: 375
+        width: 24
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cef9c0abd8b570230800000000000000
+      internalID: 3604950691003277292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nurseyes3_11
+      rect:
+        serializedVersion: 2
+        x: 1658
+        y: 372
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe3b784f29c726c20800000000000000
+      internalID: 3198255655996077039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nurseyes3_12
+      rect:
+        serializedVersion: 2
+        x: 1672
+        y: 361
+        width: 19
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e27c2fd5fcfd66b10800000000000000
+      internalID: 1974511568375957294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nurseyes3_13
+      rect:
+        serializedVersion: 2
+        x: 1604
+        y: 337
+        width: 26
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99a54f348341fcbb0800000000000000
+      internalID: -4913686436547110247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nurseyes3_14
+      rect:
+        serializedVersion: 2
+        x: 1632
+        y: 331
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5bec10567626bf560800000000000000
+      internalID: 7348575413200866997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nurseyes3_15
+      rect:
+        serializedVersion: 2
+        x: 1619
+        y: 326
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e818586f9a465470800000000000000
+      internalID: 8382969804907616488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nurseyes3_16
+      rect:
+        serializedVersion: 2
+        x: 1668
+        y: 317
+        width: 21
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3cb090d859e2c18a0800000000000000
+      internalID: -6333135756138574909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nurseyes3_17
+      rect:
+        serializedVersion: 2
+        x: 1618
+        y: 317
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9da7780d926243530800000000000000
+      internalID: 3833731143833189081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      nurseyes3_0: 3135483661229642152
+      nurseyes3_1: 4213406098155219434
+      nurseyes3_10: 3604950691003277292
+      nurseyes3_11: 3198255655996077039
+      nurseyes3_12: 1974511568375957294
+      nurseyes3_13: -4913686436547110247
+      nurseyes3_14: 7348575413200866997
+      nurseyes3_15: 8382969804907616488
+      nurseyes3_16: -6333135756138574909
+      nurseyes3_17: 3833731143833189081
+      nurseyes3_2: 2016667092611133369
+      nurseyes3_3: -6253438757118395753
+      nurseyes3_4: 7352005578259065827
+      nurseyes3_5: 5282580777517819190
+      nurseyes3_6: -4001466363106756713
+      nurseyes3_7: -3124488679148945703
+      nurseyes3_8: -8404097792919347430
+      nurseyes3_9: -2263198345759293665
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: bb350b920b35af24cbef01ee5669b10b
+guid: 89370be9971320b4eab232be4c8385e2
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 8793915729297761979
-    second: 03_0
+      213: 78936730098670195
+    second: nurseyes2_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: 03_0
+      name: nurseyes2_0
       rect:
         serializedVersion: 2
-        x: 0
+        x: 302
         y: 0
-        width: 480
-        height: 270
+        width: 1308
+        height: 982
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: bb6638d73c34a0a70800000000000000
-      internalID: 8793915729297761979
+      spriteID: 37a134da980781100800000000000000
+      internalID: 78936730098670195
       vertices: []
       indices: 
       edges: []
@@ -148,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      03_0: 8793915729297761979
+      nurseyes2_0: 78936730098670195
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -53,7 +53,7 @@ MonoBehaviour:
               m_BoolArgument: 0
             m_CallState: 2
     - text: Change your animation
-      nextLineIndex: -1
+      nextLineIndex: 0
       onSelected:
         m_PersistentCalls:
           m_Calls:

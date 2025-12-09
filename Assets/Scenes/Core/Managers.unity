@@ -344,8 +344,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   coinItem: {fileID: 11400000, guid: 8901c800b7088ce41ba9ce5efc5438df, type: 2}
   eyeItem: {fileID: 11400000, guid: a978b5ac57ed89f409e7e1397d000d88, type: 2}
-  charonDialog1: {fileID: 11400000, guid: 80c988713063e8c4b9ccec9286d72789, type: 2}
-  charonDialog2: {fileID: 11400000, guid: e1e84bb54f465a2449c5eee16a865afe, type: 2}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

@@ -1,0 +1,598 @@
+fileFormatVersion: 2
+guid: 7ea55a829245fac4cb0c2a45291cb1e1
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6902316751300740306
+    second: nursequestion3_0
+  - first:
+      213: -5516978812872342634
+    second: nursequestion3_1
+  - first:
+      213: 582824181928718047
+    second: nursequestion3_2
+  - first:
+      213: -2037194900851399591
+    second: nursequestion3_3
+  - first:
+      213: 67171905170894285
+    second: nursequestion3_4
+  - first:
+      213: 7913762182651724017
+    second: nursequestion3_5
+  - first:
+      213: 4095973514964901542
+    second: nursequestion3_6
+  - first:
+      213: -4016876007043559655
+    second: nursequestion3_7
+  - first:
+      213: 5701705516659842319
+    second: nursequestion3_8
+  - first:
+      213: 5579652726192192645
+    second: nursequestion3_9
+  - first:
+      213: -4739358090373202715
+    second: nursequestion3_10
+  - first:
+      213: 927475745112704024
+    second: nursequestion3_11
+  - first:
+      213: -8613908500108846944
+    second: nursequestion3_12
+  - first:
+      213: 2943712336179782287
+    second: nursequestion3_13
+  - first:
+      213: -9087936815097274569
+    second: nursequestion3_14
+  - first:
+      213: 6648953095176676208
+    second: nursequestion3_15
+  - first:
+      213: -7063857117260467973
+    second: nursequestion3_16
+  - first:
+      213: 9167572124505031211
+    second: nursequestion3_17
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: nursequestion3_0
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 0
+        width: 1276
+        height: 1002
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d44288e384f9cf50800000000000000
+      internalID: 6902316751300740306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nursequestion3_1
+      rect:
+        serializedVersion: 2
+        x: 1570
+        y: 404
+        width: 17
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6934369fff0cf63b0800000000000000
+      internalID: -5516978812872342634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nursequestion3_2
+      rect:
+        serializedVersion: 2
+        x: 1587
+        y: 412
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fde6e5a618b961800800000000000000
+      internalID: 582824181928718047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nursequestion3_3
+      rect:
+        serializedVersion: 2
+        x: 1590
+        y: 386
+        width: 30
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 954e38cf70e6ab3e0800000000000000
+      internalID: -2037194900851399591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nursequestion3_4
+      rect:
+        serializedVersion: 2
+        x: 1608
+        y: 415
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dcde89aed74aee000800000000000000
+      internalID: 67171905170894285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nursequestion3_5
+      rect:
+        serializedVersion: 2
+        x: 1621
+        y: 380
+        width: 23
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f040e5b6c453dd60800000000000000
+      internalID: 7913762182651724017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nursequestion3_6
+      rect:
+        serializedVersion: 2
+        x: 1574
+        y: 389
+        width: 23
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ae14e0e532d7d830800000000000000
+      internalID: 4095973514964901542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nursequestion3_7
+      rect:
+        serializedVersion: 2
+        x: 1615
+        y: 386
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91f016dcd803148c0800000000000000
+      internalID: -4016876007043559655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nursequestion3_8
+      rect:
+        serializedVersion: 2
+        x: 1562
+        y: 370
+        width: 21
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0d156e55f6802f40800000000000000
+      internalID: 5701705516659842319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nursequestion3_9
+      rect:
+        serializedVersion: 2
+        x: 1565
+        y: 295
+        width: 73
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58cb9ba9798ee6d40800000000000000
+      internalID: 5579652726192192645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nursequestion3_10
+      rect:
+        serializedVersion: 2
+        x: 1587
+        y: 375
+        width: 24
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ec7eef4dea6a3eb0800000000000000
+      internalID: -4739358090373202715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nursequestion3_11
+      rect:
+        serializedVersion: 2
+        x: 1610
+        y: 372
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 814cb35b64e0fdc00800000000000000
+      internalID: 927475745112704024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nursequestion3_12
+      rect:
+        serializedVersion: 2
+        x: 1624
+        y: 361
+        width: 19
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a85b4b8bdf357880800000000000000
+      internalID: -8613908500108846944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nursequestion3_13
+      rect:
+        serializedVersion: 2
+        x: 1556
+        y: 337
+        width: 26
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f826ee6f5ca2ad820800000000000000
+      internalID: 2943712336179782287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nursequestion3_14
+      rect:
+        serializedVersion: 2
+        x: 1584
+        y: 331
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73f9eeadd9921e180800000000000000
+      internalID: -9087936815097274569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nursequestion3_15
+      rect:
+        serializedVersion: 2
+        x: 1571
+        y: 326
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0736d36cc93d54c50800000000000000
+      internalID: 6648953095176676208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nursequestion3_16
+      rect:
+        serializedVersion: 2
+        x: 1620
+        y: 317
+        width: 21
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf03395b06328fd90800000000000000
+      internalID: -7063857117260467973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nursequestion3_17
+      rect:
+        serializedVersion: 2
+        x: 1570
+        y: 317
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2245ed7642c93f70800000000000000
+      internalID: 9167572124505031211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      nursequestion3_0: 6902316751300740306
+      nursequestion3_1: -5516978812872342634
+      nursequestion3_10: -4739358090373202715
+      nursequestion3_11: 927475745112704024
+      nursequestion3_12: -8613908500108846944
+      nursequestion3_13: 2943712336179782287
+      nursequestion3_14: -9087936815097274569
+      nursequestion3_15: 6648953095176676208
+      nursequestion3_16: -7063857117260467973
+      nursequestion3_17: 9167572124505031211
+      nursequestion3_2: 582824181928718047
+      nursequestion3_3: -2037194900851399591
+      nursequestion3_4: 67171905170894285
+      nursequestion3_5: 7913762182651724017
+      nursequestion3_6: 4095973514964901542
+      nursequestion3_7: -4016876007043559655
+      nursequestion3_8: 5701705516659842319
+      nursequestion3_9: 5579652726192192645
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

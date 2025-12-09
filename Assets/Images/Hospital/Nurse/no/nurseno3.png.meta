@@ -1,0 +1,598 @@
+fileFormatVersion: 2
+guid: 0e97b713d21494647a88c246a319cda9
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1402381584826029058
+    second: nurseno3_0
+  - first:
+      213: -3116405998666959388
+    second: nurseno3_1
+  - first:
+      213: -7408652041736887663
+    second: nurseno3_2
+  - first:
+      213: 8333518565771658455
+    second: nurseno3_3
+  - first:
+      213: -3024073273041924535
+    second: nurseno3_4
+  - first:
+      213: -4416559857863047351
+    second: nurseno3_5
+  - first:
+      213: 7352932589656025582
+    second: nurseno3_6
+  - first:
+      213: -287291418357407398
+    second: nurseno3_7
+  - first:
+      213: -520226323671956695
+    second: nurseno3_8
+  - first:
+      213: -7561631809888583075
+    second: nurseno3_9
+  - first:
+      213: 8748752632522782119
+    second: nurseno3_10
+  - first:
+      213: 3003408061883862812
+    second: nurseno3_11
+  - first:
+      213: -2169624286047008480
+    second: nurseno3_12
+  - first:
+      213: -8232182468965893502
+    second: nurseno3_13
+  - first:
+      213: -8435466938499841075
+    second: nurseno3_14
+  - first:
+      213: -7008807224380927457
+    second: nurseno3_15
+  - first:
+      213: -7318071826298908451
+    second: nurseno3_16
+  - first:
+      213: 4856037144638774405
+    second: nurseno3_17
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: nurseno3_0
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 0
+        width: 1276
+        height: 1020
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: efb25e4f06db98ce0800000000000000
+      internalID: -1402381584826029058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nurseno3_1
+      rect:
+        serializedVersion: 2
+        x: 1546
+        y: 388
+        width: 17
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e53f81714d40c4d0800000000000000
+      internalID: -3116405998666959388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nurseno3_2
+      rect:
+        serializedVersion: 2
+        x: 1563
+        y: 396
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 192ecc3883e2f2990800000000000000
+      internalID: -7408652041736887663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nurseno3_3
+      rect:
+        serializedVersion: 2
+        x: 1566
+        y: 370
+        width: 30
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d441f19bfa96a370800000000000000
+      internalID: 8333518565771658455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nurseno3_4
+      rect:
+        serializedVersion: 2
+        x: 1584
+        y: 399
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94e459161655806d0800000000000000
+      internalID: -3024073273041924535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nurseno3_5
+      rect:
+        serializedVersion: 2
+        x: 1597
+        y: 364
+        width: 23
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 947c2de853a35b2c0800000000000000
+      internalID: -4416559857863047351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nurseno3_6
+      rect:
+        serializedVersion: 2
+        x: 1550
+        y: 373
+        width: 23
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee927d79b3dda0660800000000000000
+      internalID: 7352932589656025582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nurseno3_7
+      rect:
+        serializedVersion: 2
+        x: 1591
+        y: 370
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a51e9c52af5530cf0800000000000000
+      internalID: -287291418357407398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nurseno3_8
+      rect:
+        serializedVersion: 2
+        x: 1538
+        y: 354
+        width: 21
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 923c9b63ae8c7c8f0800000000000000
+      internalID: -520226323671956695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nurseno3_9
+      rect:
+        serializedVersion: 2
+        x: 1541
+        y: 279
+        width: 73
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d520c41aeefaf0790800000000000000
+      internalID: -7561631809888583075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nurseno3_10
+      rect:
+        serializedVersion: 2
+        x: 1563
+        y: 359
+        width: 24
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a5b8499a20d96970800000000000000
+      internalID: 8748752632522782119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nurseno3_11
+      rect:
+        serializedVersion: 2
+        x: 1586
+        y: 356
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1fc12438bf3ea920800000000000000
+      internalID: 3003408061883862812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nurseno3_12
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 345
+        width: 19
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0298b1ef432f3e1e0800000000000000
+      internalID: -2169624286047008480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nurseno3_13
+      rect:
+        serializedVersion: 2
+        x: 1532
+        y: 321
+        width: 26
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28af61319a961cd80800000000000000
+      internalID: -8232182468965893502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nurseno3_14
+      rect:
+        serializedVersion: 2
+        x: 1560
+        y: 315
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc34a2033833fea80800000000000000
+      internalID: -8435466938499841075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nurseno3_15
+      rect:
+        serializedVersion: 2
+        x: 1547
+        y: 310
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f125593b6f6bbbe90800000000000000
+      internalID: -7008807224380927457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nurseno3_16
+      rect:
+        serializedVersion: 2
+        x: 1596
+        y: 301
+        width: 21
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd0d8a0627cf07a90800000000000000
+      internalID: -7318071826298908451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nurseno3_17
+      rect:
+        serializedVersion: 2
+        x: 1546
+        y: 301
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58cdb4efd0c146340800000000000000
+      internalID: 4856037144638774405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      nurseno3_0: -1402381584826029058
+      nurseno3_1: -3116405998666959388
+      nurseno3_10: 8748752632522782119
+      nurseno3_11: 3003408061883862812
+      nurseno3_12: -2169624286047008480
+      nurseno3_13: -8232182468965893502
+      nurseno3_14: -8435466938499841075
+      nurseno3_15: -7008807224380927457
+      nurseno3_16: -7318071826298908451
+      nurseno3_17: 4856037144638774405
+      nurseno3_2: -7408652041736887663
+      nurseno3_3: 8333518565771658455
+      nurseno3_4: -3024073273041924535
+      nurseno3_5: -4416559857863047351
+      nurseno3_6: 7352932589656025582
+      nurseno3_7: -287291418357407398
+      nurseno3_8: -520226323671956695
+      nurseno3_9: -7561631809888583075
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

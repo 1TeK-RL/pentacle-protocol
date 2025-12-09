@@ -1,0 +1,260 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8528a1847f61d1c438dc874d4aed6a16, type: 3}
+  m_Name: NurseDialog
+  m_EditorClassIdentifier: 
+  lines:
+  - npcText: What? You have an appointment or something?
+    answers:
+    - text: Yes please.
+      nextLineIndex: 1
+      onSelected:
+        m_PersistentCalls:
+          m_Calls:
+          - m_Target: {fileID: 11400000}
+            m_TargetAssemblyTypeName: DialogAsset, Assembly-CSharp
+            m_MethodName: ChangeAnimationFrames
+            m_Mode: 2
+            m_Arguments:
+              m_ObjectArgument: {fileID: 11400000, guid: 91142a5cca64dca4abf02ee8eca8e0e6, type: 2}
+              m_ObjectArgumentAssemblyTypeName: AnimationFrames, Assembly-CSharp
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 0
+            m_CallState: 2
+    - text: "I\u2019ll come back later."
+      nextLineIndex: -1
+      onSelected:
+        m_PersistentCalls:
+          m_Calls: []
+  - npcText: "So, what bone did you break?\t"
+    answers:
+    - text: My ribs.
+      nextLineIndex: 5
+      onSelected:
+        m_PersistentCalls:
+          m_Calls: []
+    - text: My forearm.
+      nextLineIndex: 2
+      onSelected:
+        m_PersistentCalls:
+          m_Calls: []
+    - text: My skull.
+      nextLineIndex: 5
+      onSelected:
+        m_PersistentCalls:
+          m_Calls: []
+    - text: My backbones.
+      nextLineIndex: 5
+      onSelected:
+        m_PersistentCalls:
+          m_Calls: []
+  - npcText: "I\u2019m gonna need your blood type."
+    answers:
+    - text: A-.
+      nextLineIndex: 6
+      onSelected:
+        m_PersistentCalls:
+          m_Calls: []
+    - text: AB.
+      nextLineIndex: 6
+      onSelected:
+        m_PersistentCalls:
+          m_Calls: []
+    - text: O-.
+      nextLineIndex: 6
+      onSelected:
+        m_PersistentCalls:
+          m_Calls: []
+    - text: B+.
+      nextLineIndex: 3
+      onSelected:
+        m_PersistentCalls:
+          m_Calls: []
+  - npcText: Which doctor will you see?
+    answers:
+    - text: Dr Henry.
+      nextLineIndex: 4
+      onSelected:
+        m_PersistentCalls:
+          m_Calls:
+          - m_Target: {fileID: 11400000}
+            m_TargetAssemblyTypeName: DialogAsset, Assembly-CSharp
+            m_MethodName: ChangeAnimationFrames
+            m_Mode: 2
+            m_Arguments:
+              m_ObjectArgument: {fileID: 11400000, guid: 346eafffba6fbf54fbe7caa6787fbe58, type: 2}
+              m_ObjectArgumentAssemblyTypeName: AnimationFrames, Assembly-CSharp
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 0
+            m_CallState: 2
+    - text: Dr Johnson.
+      nextLineIndex: 7
+      onSelected:
+        m_PersistentCalls:
+          m_Calls: []
+    - text: Dr Parton.
+      nextLineIndex: 7
+      onSelected:
+        m_PersistentCalls:
+          m_Calls: []
+    - text: Dr Stenfield.
+      nextLineIndex: 7
+      onSelected:
+        m_PersistentCalls:
+          m_Calls: []
+  - npcText: "You\u2019re all good, let me open the door."
+    answers:
+    - text: Thanks.
+      nextLineIndex: -1
+      onSelected:
+        m_PersistentCalls:
+          m_Calls:
+          - m_Target: {fileID: 11400000}
+            m_TargetAssemblyTypeName: DialogAsset, Assembly-CSharp
+            m_MethodName: OpenMouthDoor
+            m_Mode: 1
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 0
+            m_CallState: 2
+          - m_Target: {fileID: 11400000}
+            m_TargetAssemblyTypeName: DialogAsset, Assembly-CSharp
+            m_MethodName: ChangeAnimationFrames
+            m_Mode: 2
+            m_Arguments:
+              m_ObjectArgument: {fileID: 11400000, guid: 99abe4853d88dad469792a5116e6ff5b, type: 2}
+              m_ObjectArgumentAssemblyTypeName: AnimationFrames, Assembly-CSharp
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 0
+            m_CallState: 2
+  - npcText: "I\u2019m gonna need your blood type."
+    answers:
+    - text: A-.
+      nextLineIndex: 6
+      onSelected:
+        m_PersistentCalls:
+          m_Calls: []
+    - text: AB.
+      nextLineIndex: 6
+      onSelected:
+        m_PersistentCalls:
+          m_Calls: []
+    - text: O-.
+      nextLineIndex: 6
+      onSelected:
+        m_PersistentCalls:
+          m_Calls: []
+    - text: B+.
+      nextLineIndex: 6
+      onSelected:
+        m_PersistentCalls:
+          m_Calls: []
+  - npcText: Which doctor will you see?
+    answers:
+    - text: Dr Henry.
+      nextLineIndex: 7
+      onSelected:
+        m_PersistentCalls:
+          m_Calls:
+          - m_Target: {fileID: 11400000}
+            m_TargetAssemblyTypeName: DialogAsset, Assembly-CSharp
+            m_MethodName: ChangeAnimationFrames
+            m_Mode: 2
+            m_Arguments:
+              m_ObjectArgument: {fileID: 11400000, guid: 993643603d925134a8f3b488d2df60a8, type: 2}
+              m_ObjectArgumentAssemblyTypeName: AnimationFrames, Assembly-CSharp
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 0
+            m_CallState: 2
+    - text: Dr Johnson.
+      nextLineIndex: 7
+      onSelected:
+        m_PersistentCalls:
+          m_Calls:
+          - m_Target: {fileID: 11400000}
+            m_TargetAssemblyTypeName: DialogAsset, Assembly-CSharp
+            m_MethodName: ChangeAnimationFrames
+            m_Mode: 2
+            m_Arguments:
+              m_ObjectArgument: {fileID: 11400000, guid: 993643603d925134a8f3b488d2df60a8, type: 2}
+              m_ObjectArgumentAssemblyTypeName: AnimationFrames, Assembly-CSharp
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 0
+            m_CallState: 2
+    - text: Dr Parton.
+      nextLineIndex: 7
+      onSelected:
+        m_PersistentCalls:
+          m_Calls:
+          - m_Target: {fileID: 11400000}
+            m_TargetAssemblyTypeName: DialogAsset, Assembly-CSharp
+            m_MethodName: ChangeAnimationFrames
+            m_Mode: 2
+            m_Arguments:
+              m_ObjectArgument: {fileID: 11400000, guid: 993643603d925134a8f3b488d2df60a8, type: 2}
+              m_ObjectArgumentAssemblyTypeName: AnimationFrames, Assembly-CSharp
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 0
+            m_CallState: 2
+    - text: Dr Stenfield.
+      nextLineIndex: 7
+      onSelected:
+        m_PersistentCalls:
+          m_Calls:
+          - m_Target: {fileID: 11400000}
+            m_TargetAssemblyTypeName: DialogAsset, Assembly-CSharp
+            m_MethodName: ChangeAnimationFrames
+            m_Mode: 2
+            m_Arguments:
+              m_ObjectArgument: {fileID: 11400000, guid: 993643603d925134a8f3b488d2df60a8, type: 2}
+              m_ObjectArgumentAssemblyTypeName: AnimationFrames, Assembly-CSharp
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 0
+            m_CallState: 2
+  - npcText: Your file has some bugs, come back after you resolved them.
+    answers:
+    - text: "Oops... I\u2019ll come back later!"
+      nextLineIndex: -1
+      onSelected:
+        m_PersistentCalls:
+          m_Calls:
+          - m_Target: {fileID: 11400000}
+            m_TargetAssemblyTypeName: DialogAsset, Assembly-CSharp
+            m_MethodName: ChangeAnimationFrames
+            m_Mode: 2
+            m_Arguments:
+              m_ObjectArgument: {fileID: 11400000, guid: 99abe4853d88dad469792a5116e6ff5b, type: 2}
+              m_ObjectArgumentAssemblyTypeName: AnimationFrames, Assembly-CSharp
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 0
+            m_CallState: 2
+  interlocutorName: Nurse
