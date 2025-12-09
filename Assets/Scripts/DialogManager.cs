@@ -24,6 +24,7 @@ public class DialogManager : MonoBehaviour
     private List<AnswerButton> answerButtons;
 
     private DialogAsset currentDialog;
+    private AnimatedSprite interlocutorSprite;
     private int currentIndex;
     private Coroutine revealCoroutine;
     private string currentLine;
@@ -40,6 +41,7 @@ public class DialogManager : MonoBehaviour
         dialogBox.SetActive(true);
         interlocutorName.text = asset.interlocutorName;
         ShowLine();
+        interlocutorSprite.PlayAnimation();
     }
 
     public void StartDialogWithObjectCondition(CollectibleItem item)
@@ -174,6 +176,7 @@ public class DialogManager : MonoBehaviour
             EventManager.Instance.PlayerMove(previousPOV.transform.position, previousPOV.transform.rotation);
             previousPOV = null;
         }
+        interlocutorSprite.PauseAnimation();
     }
 
     public bool IsInADialog()
@@ -184,5 +187,10 @@ public class DialogManager : MonoBehaviour
     public void SetPreviousPOV(GameObject previousPOV)
     {
         this.previousPOV = previousPOV;
+    }
+
+    public void SetInterlocutorSprite(AnimatedSprite animatedSprite)
+    {
+        interlocutorSprite = animatedSprite;
     }
 }

@@ -11,6 +11,11 @@ public class EventManager : MonoBehaviour
 
     public event Action OnUpdateScene;
 
+    public event Action OnMouthDoorOpen;
+
+    public event Action<AnimationFrames> OnChangeAnimationType;
+
+
     private void Awake()
     {
         if (Instance != null && Instance != this)
@@ -36,5 +41,15 @@ public class EventManager : MonoBehaviour
     public void UpdateScene()
     {
         OnUpdateScene?.Invoke();
+    }
+
+    public void OpenMouthDoor()
+    {
+        OnMouthDoorOpen?.Invoke();
+    }
+
+    public void ChangeAnimationFrames(AnimationFrames animationFrames)
+    {
+        OnChangeAnimationType?.Invoke(animationFrames);
     }
 }

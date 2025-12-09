@@ -18,6 +18,16 @@ public class DialogAsset : ScriptableObject
     {
         GameManager.Instance.AddItem(item);
     }
+
+    public void OpenMouthDoor()
+    {
+        EventManager.Instance.OpenMouthDoor();
+    }
+
+    public void ChangeAnimationFrames(AnimationFrames frames)
+    {
+        EventManager.Instance.ChangeAnimationFrames(frames);
+    }
 }
 
 [Serializable]

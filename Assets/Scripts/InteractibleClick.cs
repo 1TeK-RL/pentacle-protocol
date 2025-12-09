@@ -23,4 +23,12 @@ public class InteractibleClick : MonoBehaviour
 
         EventManager.Instance.PlayerMove(nextRoomPOV.transform.position, nextRoomPOV.transform.rotation);
     }
+
+    public void ChangeWorldState()
+    {
+        if (!string.IsNullOrEmpty(povName))
+        {
+            GameManager.Instance.SetWorldState(povName);
+        }
+    }
 }

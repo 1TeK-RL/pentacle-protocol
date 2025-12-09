@@ -6,7 +6,8 @@ public class GameManager : MonoBehaviour
 {
     public static GameManager Instance { get; private set; }
 
-    [SerializeField] private Dictionary<string, bool> worldStates = new();
+    private Dictionary<string, bool> worldStates = new();
+
 
     [Header("Collectible Items for debug")]
     [SerializeField] private CollectibleItem coinItem;
@@ -32,7 +33,7 @@ public class GameManager : MonoBehaviour
 
         inventory = new Dictionary<CollectibleItem, InventoryState>();
 
-        // Initialize inventory with starting items for debub
+        // Initialize inventory with starting items for debug
         AddItem(coinItem);
         AddItem(eyeItem);
     }

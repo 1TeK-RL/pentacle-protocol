@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4491d824fb3a69443b8fcb575ee7acb0, type: 3}
+  m_Name: NurseAngry
+  m_EditorClassIdentifier: 
+  animationName: Nurse
+  framesList:
+  - {fileID: 21300000, guid: a4fca353ab9642941bfa89da13993097, type: 3}
+  - {fileID: 21300000, guid: 044f1771620de4f458c1a6e6a5b49336, type: 3}
+  - {fileID: 21300000, guid: bb350b920b35af24cbef01ee5669b10b, type: 3}
+  - {fileID: 21300000, guid: a16cb445d3d69014f85544b1f492eb02, type: 3}
+  animationSpeed: 3.93
