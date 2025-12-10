@@ -258,12 +258,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   defaultCursor: {fileID: 2800000, guid: 54ac83923ef7d98469a1ba3ca1c2d8a0, type: 3}
-  forwardCursor: {fileID: 0}
-  rightCursor: {fileID: 0}
-  backwardCursor: {fileID: 0}
-  leftCursor: {fileID: 0}
-  dialogCursor: {fileID: 0}
-  InteractCursor: {fileID: 0}
+  forwardCursor: {fileID: 2800000, guid: a54beb672bc4f844aabcf291b59641cf, type: 3}
+  rightCursor: {fileID: 2800000, guid: 5e52e92e7a8fd7448addd33824b51bf6, type: 3}
+  backwardCursor: {fileID: 2800000, guid: 666bc4b2c6b8bd046911add25b4cde9d, type: 3}
+  leftCursor: {fileID: 2800000, guid: a56fe234cbdc39c44a74e9ad0121d42c, type: 3}
+  dialogCursor: {fileID: 2800000, guid: 3f87c92db5432364b9ee4b5b58b5566f, type: 3}
+  InteractCursor: {fileID: 2800000, guid: db5482c4095ae8c4a9955770f82c353e, type: 3}
 --- !u!4 &1329570295
 Transform:
   m_ObjectHideFlags: 0
