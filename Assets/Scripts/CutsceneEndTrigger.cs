@@ -13,13 +13,11 @@ public class CutsceneEndTrigger : MonoBehaviour
         videoPlayer = GetComponent<VideoPlayer>();
     }
 
-    private void Start()
+    public void StopCutscene()
     {
-        videoPlayer.loopPointReached += OnVideoEnd;
-    }
+        if (videoPlayer != null && videoPlayer.isPlaying)
+            videoPlayer.Stop();
 
-    private void OnVideoEnd(VideoPlayer vp)
-    {
         CutsceneFinished?.TrySetResult(true);
     }
 }

@@ -1,5 +1,194 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8922508122671156056
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Nurse's voice
+  m_EditorClassIdentifier: 
+  Path: event:/Nurse's voice
+  Guid:
+    Data1: 798552993
+    Data2: 1164707554
+    Data3: 210011029
+    Data4: -1942833363
+  Banks:
+  - {fileID: 9070603907228734456}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 60062
+--- !u!114 &-7454379017664388779
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/UI_drop
+  m_EditorClassIdentifier: 
+  Path: event:/UI_drop
+  Guid:
+    Data1: 1687253460
+    Data2: 1331779717
+    Data3: -1437255806
+    Data4: -1046797564
+  Banks:
+  - {fileID: 9070603907228734456}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 202
+--- !u!114 &-5270499783949045749
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Heartbeat
+  m_EditorClassIdentifier: 
+  Path: event:/Heartbeat
+  Guid:
+    Data1: -1826240256
+    Data2: 1134269515
+    Data3: -1777881185
+    Data4: 1664494248
+  Banks:
+  - {fileID: 9070603907228734456}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 8100
+--- !u!114 &-3695942318248974372
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Footsteps_mouth
+  m_EditorClassIdentifier: 
+  Path: event:/Footsteps_mouth
+  Guid:
+    Data1: 1538692420
+    Data2: 1265548970
+    Data3: 215138228
+    Data4: -1940657160
+  Banks:
+  - {fileID: 9070603907228734456}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 562
+--- !u!114 &-3629359037253644250
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Eye_ripping_off
+  m_EditorClassIdentifier: 
+  Path: event:/Eye_ripping_off
+  Guid:
+    Data1: -325387664
+    Data2: 1078745101
+    Data3: 994295212
+    Data4: -229429502
+  Banks:
+  - {fileID: 9070603907228734456}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 5022
+--- !u!114 &-565236016039396570
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Charon's voice
+  m_EditorClassIdentifier: 
+  Path: event:/Charon's voice
+  Guid:
+    Data1: 1532155019
+    Data2: 1211940138
+    Data3: -419402611
+    Data4: 1354506170
+  Banks:
+  - {fileID: 9070603907228734456}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 59250
+--- !u!114 &-537320393148747807
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/UI_hover
+  m_EditorClassIdentifier: 
+  Path: event:/UI_hover
+  Guid:
+    Data1: 174243525
+    Data2: 1289476356
+    Data3: -1526569042
+    Data4: 1798665552
+  Banks:
+  - {fileID: 9070603907228734456}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 63
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16,17 +205,78 @@ MonoBehaviour:
   - {fileID: 2061791747408428054}
   - {fileID: 9070603907228734456}
   EditorEvents:
-  - {fileID: 5939610095374196402}
+  - {fileID: -5270499783949045749}
+  - {fileID: 7590624212607771944}
+  - {fileID: 7186901600423965416}
+  - {fileID: -3695942318248974372}
+  - {fileID: -3629359037253644250}
+  - {fileID: -565236016039396570}
+  - {fileID: 6435881149073386995}
+  - {fileID: -8922508122671156056}
+  - {fileID: 3003070359843160710}
+  - {fileID: 8431403203219581054}
+  - {fileID: -537320393148747807}
+  - {fileID: 807160891405582970}
+  - {fileID: -7454379017664388779}
   EditorParameters: []
   MasterBanks:
   - {fileID: 9070603907228734456}
   StringsBanks:
   - {fileID: 2061791747408428054}
   cacheVersion: 131857
-  cacheTime: 639007865626845537
+  cacheTime: 639009758265223180
   SerializableEventsDict:
-  - key: event:/Footsteps
+  - key: event:/Heartbeat
     index: 0
+  - key: event:/Ambiance
+    index: 1
+  - key: event:/Car's sound
+    index: 2
+  - key: event:/Footsteps_mouth
+    index: 3
+  - key: event:/Eye_ripping_off
+    index: 4
+  - key: event:/Charon's voice
+    index: 5
+  - key: event:/UI_click
+    index: 6
+  - key: event:/Nurse's voice
+    index: 7
+  - key: event:/Footsteps_basic
+    index: 8
+  - key: event:/Guardian's voice
+    index: 9
+  - key: event:/UI_hover
+    index: 10
+  - key: event:/UI_burning
+    index: 11
+--- !u!114 &807160891405582970
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/UI_burning
+  m_EditorClassIdentifier: 
+  Path: event:/UI_burning
+  Guid:
+    Data1: -1369535539
+    Data2: 1253745159
+    Data3: -1744948344
+    Data4: 700665009
+  Banks:
+  - {fileID: 9070603907228734456}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 276
 --- !u!114 &2061791747408428054
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -42,12 +292,12 @@ MonoBehaviour:
   Path: FMOD/SoundProject/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 639007865626845537
+  lastModified: 639009758265223180
   FileSizes:
   - Name: Desktop
-    Value: 770
+    Value: 1310
   Exists: 1
---- !u!114 &5939610095374196402
+--- !u!114 &3003070359843160710
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -57,14 +307,14 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Footsteps
+  m_Name: event:/Footsteps_basic
   m_EditorClassIdentifier: 
-  Path: event:/Footsteps
+  Path: event:/Footsteps_basic
   Guid:
-    Data1: -1175191706
-    Data2: 1335824877
-    Data3: -1513521779
-    Data4: 2019231611
+    Data1: 1623991464
+    Data2: 1292519570
+    Data3: 785746077
+    Data4: 2057761574
   Banks:
   - {fileID: 9070603907228734456}
   IsStream: 0
@@ -73,7 +323,115 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 351
+  Length: 252
+--- !u!114 &6435881149073386995
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/UI_click
+  m_EditorClassIdentifier: 
+  Path: event:/UI_click
+  Guid:
+    Data1: -2079288174
+    Data2: 1110344053
+    Data3: -2098051704
+    Data4: 1311355558
+  Banks:
+  - {fileID: 9070603907228734456}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 102
+--- !u!114 &7186901600423965416
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Car's sound
+  m_EditorClassIdentifier: 
+  Path: event:/Car's sound
+  Guid:
+    Data1: 689411112
+    Data2: 1302488661
+    Data3: -1039202378
+    Data4: -1875361663
+  Banks:
+  - {fileID: 9070603907228734456}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 92000
+--- !u!114 &7590624212607771944
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Ambiance
+  m_EditorClassIdentifier: 
+  Path: event:/Ambiance
+  Guid:
+    Data1: -1618474465
+    Data2: 1202498745
+    Data3: -1846604925
+    Data4: -918890391
+  Banks:
+  - {fileID: 9070603907228734456}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 10100
+--- !u!114 &8431403203219581054
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Guardian's voice
+  m_EditorClassIdentifier: 
+  Path: event:/Guardian's voice
+  Guid:
+    Data1: -427450697
+    Data2: 1098903432
+    Data3: -1754143872
+    Data4: -853706992
+  Banks:
+  - {fileID: 9070603907228734456}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 82625
 --- !u!114 &9070603907228734456
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -89,8 +447,8 @@ MonoBehaviour:
   Path: FMOD/SoundProject/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 639007865620155412
+  lastModified: 639009758265213088
   FileSizes:
   - Name: Desktop
-    Value: 65056
+    Value: 14446240
   Exists: 1

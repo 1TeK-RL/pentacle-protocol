@@ -32,16 +32,16 @@ public class EventManager : MonoBehaviour
         SceneLoader = sceneLoader;
     }
 
-    public void PlayerMove(Vector2 pos, Quaternion rot, bool playSound = true)
+    public void PlayerMove(Vector2 pos, Quaternion rot, bool playsound, ZoneTypes type)
     {
-        var data = new PlayerMoveEvent(pos, rot, playSound);
+        var data = new PlayerMoveEvent(pos, rot,playsound, type);
         OnPlayerMove?.Invoke(data);
     }
 
     public void UpdateScene()
     {
         OnUpdateScene?.Invoke();
-    }
+    }   
 
     public void OpenMouthDoor()
     {

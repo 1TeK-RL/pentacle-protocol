@@ -1,6 +1,10 @@
 public enum CursorType
 {
     Default,
-    Hover,
-    Arrow
+    Forward,
+    Right,
+    Backward,
+    Left,
+    Dialog,
+    Interact
 }

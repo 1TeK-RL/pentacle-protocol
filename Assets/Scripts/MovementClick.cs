@@ -14,6 +14,6 @@ public class MovementClick : MonoBehaviour
 
     private void OnMouseDown()
     {
-        EventManager.Instance.PlayerMove(nextRoomPOV.transform.position, nextRoomPOV.transform.rotation);
+        EventManager.Instance.PlayerMove(nextRoomPOV.transform.position, nextRoomPOV.transform.rotation, true, nextRoomPOV.GetComponent<ZoneType>().Type);
     }
 }

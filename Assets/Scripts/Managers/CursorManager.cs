@@ -5,8 +5,12 @@ public class CursorManager : MonoBehaviour
     public static CursorManager Instance { get; private set; }
 
     [SerializeField] private Texture2D defaultCursor;
-    [SerializeField] private Texture2D arrowCursor;
-    [SerializeField] private Texture2D hoverCursor;
+    [SerializeField] private Texture2D forwardCursor;
+    [SerializeField] private Texture2D rightCursor;
+    [SerializeField] private Texture2D backwardCursor;
+    [SerializeField] private Texture2D leftCursor;
+    [SerializeField] private Texture2D dialogCursor;
+    [SerializeField] private Texture2D InteractCursor;
 
     private void Awake()
     {
@@ -31,11 +35,23 @@ public class CursorManager : MonoBehaviour
             case CursorType.Default:
                 Cursor.SetCursor(defaultCursor, Vector2.zero, CursorMode.Auto);
                 break;
-            case CursorType.Arrow:
-                Cursor.SetCursor(arrowCursor, Vector2.zero, CursorMode.Auto);
+            case CursorType.Forward:
+                Cursor.SetCursor(forwardCursor, Vector2.zero, CursorMode.Auto);
                 break;
-            case CursorType.Hover:
-                Cursor.SetCursor(hoverCursor, Vector2.zero, CursorMode.Auto);
+            case CursorType.Right:
+                Cursor.SetCursor(rightCursor, Vector2.zero, CursorMode.Auto);
+                break;
+            case CursorType.Backward:
+                Cursor.SetCursor(backwardCursor, Vector2.zero, CursorMode.Auto);
+                break;
+            case CursorType.Left:
+                Cursor.SetCursor(leftCursor, Vector2.zero, CursorMode.Auto);
+                break;
+            case CursorType.Dialog:
+                Cursor.SetCursor(dialogCursor, Vector2.zero, CursorMode.Auto);
+                break;
+            case CursorType.Interact:
+                Cursor.SetCursor(InteractCursor, Vector2.zero, CursorMode.Auto);
                 break;
             default:
                 Cursor.SetCursor(defaultCursor, Vector2.zero, CursorMode.Auto);

@@ -42,6 +42,9 @@ public class DialogManager : MonoBehaviour
         interlocutorName.text = asset.interlocutorName;
         ShowLine();
         interlocutorSprite.PlayAnimation();
+
+        // Start instance of voice
+        AudioManager.Instance.StartDialogVoice();
     }
 
     public void StartDialogWithObjectCondition(CollectibleItem item)
@@ -83,6 +86,7 @@ public class DialogManager : MonoBehaviour
 
     private void DisplayAnswers()
     {
+
         int i = 0;
         foreach (var answer in currentDialog.lines[currentIndex].answers)
         {
@@ -173,10 +177,14 @@ public class DialogManager : MonoBehaviour
         dialogBox.SetActive(false);
         if (previousPOV != null)
         {
-            EventManager.Instance.PlayerMove(previousPOV.transform.position, previousPOV.transform.rotation);
+            EventManager.Instance.PlayerMove(previousPOV.transform.position, previousPOV.transform.rotation, true, previousPOV.GetComponent<ZoneType>().Type);
             previousPOV = null;
         }
         interlocutorSprite.PauseAnimation();
+
+        // Stop & realease voice instance
+        AudioManager.Instance.StopDialogVoice();
+        AudioManager.Instance.ReleaseDialogVoice();
     }
 
     public bool IsInADialog()
@@ -192,5 +200,20 @@ public class DialogManager : MonoBehaviour
     public void SetInterlocutorSprite(AnimatedSprite animatedSprite)
     {
         interlocutorSprite = animatedSprite;
+    }
+
+    public void SetCharonVoice()
+    {
+        AudioManager.Instance.SetCharonVoice();
+    }
+
+    public void SetNurseVoice()
+    {
+        AudioManager.Instance.SetNurseVoice();
+    }
+
+    public void SetGuardianVoice()
+    {
+        AudioManager.Instance.SetGuardianVoice();
     }
 }

@@ -23,7 +23,8 @@ public class InteractibleNPC : MonoBehaviour
             GameManager.Instance.SetWorldState(povName);
         }
 
-        EventManager.Instance.PlayerMove(nextRoomPOV.transform.position, nextRoomPOV.transform.rotation);
+        Debug.Log(nextRoomPOV);
+        EventManager.Instance.PlayerMove(nextRoomPOV.transform.position, nextRoomPOV.transform.rotation, true, nextRoomPOV.GetComponent<ZoneType>().Type);
 
         if (onClick != null)
         {

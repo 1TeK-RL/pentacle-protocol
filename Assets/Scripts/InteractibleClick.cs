@@ -30,7 +30,7 @@ public class InteractibleClick : MonoBehaviour
                 GameManager.Instance.SetWorldState(povName);
             }
 
-            EventManager.Instance.PlayerMove(nextRoomPOV.transform.position, nextRoomPOV.transform.rotation);
+            EventManager.Instance.PlayerMove(nextRoomPOV.transform.position, nextRoomPOV.transform.rotation, true, nextRoomPOV.GetComponent<ZoneType>().Type);
         }
     }
 

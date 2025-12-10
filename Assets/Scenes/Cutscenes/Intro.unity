@@ -170,6 +170,8 @@ PlayableDirector:
     value: {fileID: 974671396}
   - key: {fileID: -1633935212139318249, guid: f9c67bda629b0774bbb7d60de61b9eb9, type: 2}
     value: {fileID: 370224980}
+  - key: {fileID: 6589139494618038259, guid: f9c67bda629b0774bbb7d60de61b9eb9, type: 2}
+    value: {fileID: 370224985}
   m_ExposedReferences:
     m_References: []
 --- !u!1 &370224980
@@ -182,8 +184,8 @@ GameObject:
   m_Component:
   - component: {fileID: 370224982}
   - component: {fileID: 370224981}
-  - component: {fileID: 370224983}
   - component: {fileID: 370224984}
+  - component: {fileID: 370224985}
   m_Layer: 0
   m_Name: VideoPlayer
   m_TagString: Untagged
@@ -199,7 +201,7 @@ VideoPlayer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 370224980}
   m_Enabled: 1
-  m_VideoClip: {fileID: 32900000, guid: 2a7b75c02236c3d4ca5ed25bd8e41108, type: 3}
+  m_VideoClip: {fileID: 32900000, guid: e9b2e6864592f8a41adbcd241693474c, type: 3}
   m_TargetCameraAlpha: 1
   m_TargetCamera3DLayout: 0
   m_TargetCamera: {fileID: 1208948910}
@@ -213,12 +215,14 @@ VideoPlayer:
   m_TimeUpdateMode: 1
   m_PlaybackSpeed: 1
   m_AudioOutputMode: 2
-  m_TargetAudioSources: []
-  m_DirectAudioVolumes: []
+  m_TargetAudioSources:
+  - {fileID: 0}
+  m_DirectAudioVolumes:
+  - 1
   m_Url: 
-  m_EnabledAudioTracks: 
-  m_DirectAudioMutes: 
-  m_ControlledAudioTrackCount: 0
+  m_EnabledAudioTracks: 01
+  m_DirectAudioMutes: 00
+  m_ControlledAudioTrackCount: 1
   m_PlayOnAwake: 1
   m_SkipOnDrop: 1
   m_Looping: 0
@@ -240,28 +244,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!95 &370224983
-Animator:
-  serializedVersion: 7
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 370224980}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_StabilizeFeet: 0
-  m_AnimatePhysics: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorStateOnDisable: 0
-  m_WriteDefaultValuesOnDisable: 0
 --- !u!114 &370224984
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -274,6 +256,36 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 13cf827d43e9e0647966a39c5706aacc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &370224985
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 370224980}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e52de21a22b6dd44c9cc19f810c65059, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Events:
+    m_Signals:
+    - {fileID: 11400000, guid: fb8b05c1caa976441860d05c362bfc4a, type: 2}
+    m_Events:
+    - m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 370224984}
+          m_TargetAssemblyTypeName: CutsceneEndTrigger, Assembly-CSharp
+          m_MethodName: StopCutscene
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
 --- !u!1 &540612375
 GameObject:
   m_ObjectHideFlags: 0
@@ -544,7 +556,7 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
+    rgba: 16777215
   m_fontColor: {r: 1, g: 1, b: 1, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3

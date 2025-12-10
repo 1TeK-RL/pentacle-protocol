@@ -17,8 +17,6 @@ public class PentacleItem : MonoBehaviour, IBeginDragHandler, IDragHandler, IEnd
 
     private CollectibleItem itemData;
 
-
-
     private void Awake()
     {
         canvas = GetComponentInParent<Canvas>();
@@ -27,7 +25,7 @@ public class PentacleItem : MonoBehaviour, IBeginDragHandler, IDragHandler, IEnd
     public void OnBeginDrag(PointerEventData eventData)
     {
         parentAfterDrag = transform.parent;
-        transform.SetParent(canvas.transform);   // Keep it inside the canvas
+        transform.SetParent(canvas.transform);
         transform.SetAsLastSibling();
         image.raycastTarget = false;
     }
