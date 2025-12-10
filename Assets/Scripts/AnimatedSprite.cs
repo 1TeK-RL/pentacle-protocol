@@ -17,19 +17,40 @@ public class AnimatedSprite : MonoBehaviour
 
 
     private SpriteRenderer spriteRenderer;
+    private Image spriteImage;
+    private bool isSprite = true;
     private float timer = 0f;
     private int i = 1; // set to 1 since the first frame is the base image
     private bool animationIsOn = false;
 
     private void Start()
     {
-        spriteRenderer = GetComponent<SpriteRenderer>();
-        gameObject.SetActive(false);
-        spriteRenderer.sprite = currentAnimationFrames.framesList[0];
-        if (playOnStart)
+        try
         {
-            PlayAnimation();
+            spriteRenderer = GetComponent<SpriteRenderer>();
+            gameObject.SetActive(false);
+            spriteRenderer.sprite = currentAnimationFrames.framesList[0];
+            if (playOnStart)
+            {
+                PlayAnimation();
+            }
+            isSprite = true;
         }
+        catch
+        {
+            Debug.Log("No Sprite found, looking for image.");
+            spriteImage = GetComponent<Image>();
+            gameObject.SetActive(false);
+            spriteImage.sprite = currentAnimationFrames.framesList[0];
+            if (playOnStart)
+            {
+                PlayAnimation();
+            }
+            isSprite = false;
+
+        }
+
+
     }
 
     void Update()
@@ -39,7 +60,10 @@ public class AnimatedSprite : MonoBehaviour
         if (timer >= 1f / currentAnimationFrames.animationSpeed && animationIsOn)
         {
             timer = 0f;
-            spriteRenderer.sprite = currentAnimationFrames.framesList[i];
+            if (isSprite)
+                spriteRenderer.sprite = currentAnimationFrames.framesList[i];
+            else
+                spriteImage.sprite = currentAnimationFrames.framesList[i];
             i = (i + 1) % currentAnimationFrames.framesList.Count;
         }
     }

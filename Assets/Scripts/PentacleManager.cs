@@ -28,6 +28,8 @@ public class PentacleManager : MonoBehaviour
     /// </summary>
     public void RefreshInventory()
     {
+        Debug.Log("Refreshing Pentacle Inventory UI...");
+
         gameManager = GameManager.Instance;
         gameManager.RemovePentacledFromAll();
 
