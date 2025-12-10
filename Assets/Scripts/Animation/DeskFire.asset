@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4491d824fb3a69443b8fcb575ee7acb0, type: 3}
+  m_Name: DeskFire
+  m_EditorClassIdentifier: 
+  animationName: DeskFire
+  framesList:
+  - {fileID: -8587970630395617126, guid: 48288dab3e89f4e4b86896d6a440ca4a, type: 3}
+  - {fileID: -2094798405633713809, guid: 48288dab3e89f4e4b86896d6a440ca4a, type: 3}
+  - {fileID: -1049944795276972613, guid: 48288dab3e89f4e4b86896d6a440ca4a, type: 3}
+  - {fileID: 7814918098075180514, guid: 48288dab3e89f4e4b86896d6a440ca4a, type: 3}
+  - {fileID: 2167279656818917196, guid: 48288dab3e89f4e4b86896d6a440ca4a, type: 3}
+  - {fileID: 6322071915155668361, guid: 48288dab3e89f4e4b86896d6a440ca4a, type: 3}
+  - {fileID: 7359418400835102728, guid: 48288dab3e89f4e4b86896d6a440ca4a, type: 3}
+  - {fileID: 7784325445278329282, guid: 48288dab3e89f4e4b86896d6a440ca4a, type: 3}
+  animationSpeed: 3.45
