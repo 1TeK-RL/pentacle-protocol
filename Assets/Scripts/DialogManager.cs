@@ -21,6 +21,10 @@ public class DialogManager : MonoBehaviour
     [SerializeField]
     private List<AnswerButton> answerButtons;
 
+    [SerializeField]
+    [Range(0.001f, 0.05f)]
+    private float textRevealSpeed = 0.01f;
+
     private DialogAsset currentDialog;
     private AnimatedSprite interlocutorSprite;
     private int currentIndex;
@@ -79,7 +83,7 @@ public class DialogManager : MonoBehaviour
         }
 
         // Display NPC text word by word
-        RevealLine(currentLine, interlocutorText, 0.03f);
+        RevealLine(currentLine, interlocutorText, 0.01f);
     }
 
     private void DisplayAnswers()

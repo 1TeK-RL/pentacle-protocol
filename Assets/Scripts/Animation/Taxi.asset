@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4491d824fb3a69443b8fcb575ee7acb0, type: 3}
+  m_Name: Taxi
+  m_EditorClassIdentifier: 
+  animationName: Taxi
+  framesList:
+  - {fileID: 21300000, guid: 5ba3db013388ed147a867d12a55f0d35, type: 3}
+  - {fileID: 21300000, guid: 77e3e2d9f65c4174e92ff61ae5d78d15, type: 3}
+  - {fileID: 21300000, guid: 61925da4a57b59b4e8aed6ac5fb94dc7, type: 3}
+  - {fileID: 21300000, guid: bef8803832b905a4780bc2590d1726a5, type: 3}
+  - {fileID: 21300000, guid: 7063ac66e43ba794a95a5ec6fedf734c, type: 3}
+  - {fileID: 21300000, guid: f432a85f8ea3846439b7ff894b41514d, type: 3}
+  - {fileID: 21300000, guid: 729f009f3a25de44ba910e5942ddede3, type: 3}
+  - {fileID: 21300000, guid: d54cdc3c66bd4e344a09a7b46fb769b2, type: 3}
+  - {fileID: 21300000, guid: d57fff804b999774c89b139f5c9dd758, type: 3}
+  - {fileID: 21300000, guid: 236223ab5f990c043bd1416d1f3cc517, type: 3}
+  - {fileID: 21300000, guid: 71a8a45dd3cc722479f596d2894c1345, type: 3}
+  - {fileID: 21300000, guid: acf657364e1da894bb33f3c1a9e7e8a2, type: 3}
+  - {fileID: 21300000, guid: 58c3fe4a1700b3c45b9cde5d04fc75c1, type: 3}
+  - {fileID: 21300000, guid: 49284f5cf5c64664da0e5ccabacf3a89, type: 3}
+  - {fileID: 21300000, guid: 6dbdd9a7909f0b945b205d196293a2ee, type: 3}
+  - {fileID: 21300000, guid: 84ffa00c1aa4bbe40bb9d0b363814b0f, type: 3}
+  - {fileID: 21300000, guid: e43bc744cb0f79e44b8219d0fa0d4fd4, type: 3}
+  - {fileID: 21300000, guid: 2656bbee16da5914ab8bd6dd9893c7bf, type: 3}
+  - {fileID: 21300000, guid: 16ed20a3b24f52549b9f31967381c6aa, type: 3}
+  - {fileID: 21300000, guid: f0844ea59e68b8f4aaf2a114f3c95cb8, type: 3}
+  - {fileID: 21300000, guid: 3756580c59ee49a41be72a48d4ee26cd, type: 3}
+  - {fileID: 21300000, guid: 5cd05674edad7e241a134c41915e12a5, type: 3}
+  - {fileID: 21300000, guid: e44fdb5d7f6dd084bad99dd93fcf8a17, type: 3}
+  animationSpeed: 4.69

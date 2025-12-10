@@ -10,8 +10,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 7a1492183f175b647b54549dd874c155, type: 3}
-  m_Name: Eye
+  m_Name: Spoon
   m_EditorClassIdentifier: 
-  itemName: eye.ptc
+  itemName: spoon.dev
   itemImage: {fileID: 798837358, guid: 9125735b81a8f7448a786592b980bc20, type: 3}
-  description: An eye ???
+  description: A spoon ???
