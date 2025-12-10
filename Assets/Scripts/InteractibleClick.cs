@@ -7,14 +7,14 @@ public class InteractibleClick : MonoBehaviour
 
     [SerializeField] private GameObject nextRoomPOV;
 
-    Collider interactionCollider;
+    private Collider2D interactionCollider;
 
     [SerializeField]
     private bool isOpened = false;
 
-    private void Start()
+    private void Awake()
     {
-        interactionCollider = GetComponent<Collider>();
+        interactionCollider = GetComponent<Collider2D>();
         if (nextRoomPOV == null)
         {
             interactionCollider.enabled = false;

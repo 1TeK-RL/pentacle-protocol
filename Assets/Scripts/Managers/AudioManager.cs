@@ -49,9 +49,24 @@ public class AudioManager : MonoBehaviour
         }
     }
 
+    public void PlayUIHover()
+    {
+        RuntimeManager.PlayOneShot("event:/UI_hover");
+    }
+
     public void PlayUIClick()
     {
         RuntimeManager.PlayOneShot("event:/UI_click");
+    }
+
+    public void PlayUIDrop()
+    {
+        RuntimeManager.PlayOneShot("event:/UI_drop");
+    }
+
+    public void PlayUIBurn()
+    {
+        RuntimeManager.PlayOneShot("event:/UI_burning");
     }
 
     public void SetCharonVoice()
@@ -91,15 +106,5 @@ public class AudioManager : MonoBehaviour
         {
             instanceDialog.release();
         }
-    }
-
-    public void StartCharonDialog()
-    {
-        Debug.Log("Starting Charon Dialog");
-    }
-
-    public void StopCharonDialog()
-    {
-        Debug.Log("Stopping Charon Dialog");
     }
 }

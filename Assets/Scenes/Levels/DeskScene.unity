@@ -3611,7 +3611,7 @@ MonoBehaviour:
   - {fileID: 1430706088}
   inventoryGrid: {fileID: 1918901011}
   pentaclePrefab: {fileID: 3953334585464914072, guid: 8b71d9582efb8bb469618343259ef866, type: 3}
-  waitTime: 3
+  waitTime: 2
 --- !u!4 &2003681111
 Transform:
   m_ObjectHideFlags: 0

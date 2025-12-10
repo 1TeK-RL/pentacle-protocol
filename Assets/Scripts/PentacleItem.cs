@@ -3,7 +3,7 @@ using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
 
-public class PentacleItem : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragHandler
+public class PentacleItem : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragHandler, IPointerClickHandler, IPointerEnterHandler, IPointerDownHandler
 {
 
     [SerializeField]
@@ -37,6 +37,8 @@ public class PentacleItem : MonoBehaviour, IBeginDragHandler, IDragHandler, IEnd
 
     public void OnEndDrag(PointerEventData eventData)
     {
+        AudioManager.Instance.PlayUIDrop();
+
         transform.SetParent(parentAfterDrag);
         image.raycastTarget = true;
     }
@@ -61,5 +63,20 @@ public class PentacleItem : MonoBehaviour, IBeginDragHandler, IDragHandler, IEnd
     public CollectibleItem GetItemData()
     {
         return itemData;
+    }
+
+    public void OnPointerClick(PointerEventData eventData)
+    {
+        //AudioManager.Instance.PlayUIClick();
+    }
+
+    public void OnPointerEnter(PointerEventData eventData)
+    {
+        AudioManager.Instance.PlayUIHover();
+    }
+
+    public void OnPointerDown(PointerEventData eventData)
+    {
+        AudioManager.Instance.PlayUIClick();
     }
 }

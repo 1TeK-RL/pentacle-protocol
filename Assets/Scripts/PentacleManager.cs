@@ -88,6 +88,9 @@ public class PentacleManager : MonoBehaviour
             {
                 gameManager.ChangeItemState(pentacleItem.GetItemData(), GameManager.InventoryState.Pentacled);
                 slot.LitOnFire();
+
+                AudioManager.Instance.PlayUIBurn();
+
                 Debug.Log($"Lit {pentacleItem.GetItemData().itemName} on fire!");
 
                 yield return new WaitForSeconds(interval);

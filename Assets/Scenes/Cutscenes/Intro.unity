@@ -172,6 +172,8 @@ PlayableDirector:
     value: {fileID: 370224980}
   - key: {fileID: 6589139494618038259, guid: f9c67bda629b0774bbb7d60de61b9eb9, type: 2}
     value: {fileID: 370224985}
+  - key: {fileID: -8658017077454747565, guid: f9c67bda629b0774bbb7d60de61b9eb9, type: 2}
+    value: {fileID: 370224980}
   m_ExposedReferences:
     m_References: []
 --- !u!1 &370224980
@@ -214,7 +216,7 @@ VideoPlayer:
   m_DataSource: 0
   m_TimeUpdateMode: 1
   m_PlaybackSpeed: 1
-  m_AudioOutputMode: 2
+  m_AudioOutputMode: 0
   m_TargetAudioSources:
   - {fileID: 0}
   m_DirectAudioVolumes:
@@ -556,7 +558,7 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 16777215
+    rgba: 4294967295
   m_fontColor: {r: 1, g: 1, b: 1, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
