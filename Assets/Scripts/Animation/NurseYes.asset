@@ -18,4 +18,4 @@ MonoBehaviour:
   - {fileID: 21300000, guid: 89370be9971320b4eab232be4c8385e2, type: 3}
   - {fileID: 21300000, guid: 2ef69f7fb8de93f46a1d86697a2c235b, type: 3}
   - {fileID: 21300000, guid: 17894d674ab74a9449170e0caac15e42, type: 3}
-  animationSpeed: 3.93
+  animationSpeed: 3.5

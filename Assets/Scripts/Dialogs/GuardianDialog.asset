@@ -1,0 +1,242 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8528a1847f61d1c438dc874d4aed6a16, type: 3}
+  m_Name: GuardianDialog
+  m_EditorClassIdentifier: 
+  lines:
+  - npcText: "Oh? It\u2019s unusual to see humans around here. Are you looking for
+      something?"
+    answers:
+    - text: (Tell him about my problem)
+      nextLineIndex: 2
+      onSelected:
+        m_PersistentCalls:
+          m_Calls:
+          - m_Target: {fileID: 0}
+            m_TargetAssemblyTypeName: 
+            m_MethodName: 
+            m_Mode: 0
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: 
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 0
+            m_CallState: 2
+    - text: "I\u2019d rather not say."
+      nextLineIndex: 1
+      onSelected:
+        m_PersistentCalls:
+          m_Calls: []
+  - npcText: "Haha alright, keep your secrets, man. Sometimes it\u2019 a good thing
+      to keep your infos... private. But..."
+    answers:
+    - text: (Next)
+      nextLineIndex: 3
+      onSelected:
+        m_PersistentCalls:
+          m_Calls: []
+  - npcText: I see... There should be some data around here, good luck with finding
+      them ! But...
+    answers:
+    - text: (Next)
+      nextLineIndex: 3
+      onSelected:
+        m_PersistentCalls:
+          m_Calls: []
+  - npcText: If you want to travel around here, you will need a specific item...
+    answers:
+    - text: (Next)
+      nextLineIndex: 4
+      onSelected:
+        m_PersistentCalls:
+          m_Calls: []
+  - npcText: I see you brought a spoon here... I promise to help you, if you help
+      me with something first. Deal?
+    answers:
+    - text: Ok, sure! How can I help ?
+      nextLineIndex: 5
+      onSelected:
+        m_PersistentCalls:
+          m_Calls: []
+    - text: Maybe later. (Leave)
+      nextLineIndex: -1
+      onSelected:
+        m_PersistentCalls:
+          m_Calls: []
+  - npcText: My left eye. Help me get rid of it.
+    answers:
+    - text: Huh... As you want.
+      nextLineIndex: 7
+      onSelected:
+        m_PersistentCalls:
+          m_Calls: []
+    - text: Are you mad!? (Leave)
+      nextLineIndex: 6
+      onSelected:
+        m_PersistentCalls:
+          m_Calls: []
+  - npcText: You think you have a choice? You made a deal, complete your part. NOW.
+    answers:
+    - text: (Take)
+      nextLineIndex: 8
+      onSelected:
+        m_PersistentCalls:
+          m_Calls:
+          - m_Target: {fileID: 11400000}
+            m_TargetAssemblyTypeName: DialogAsset, Assembly-CSharp
+            m_MethodName: ChangeAnimationFrames
+            m_Mode: 2
+            m_Arguments:
+              m_ObjectArgument: {fileID: 11400000, guid: 8441c76c58265b94590c748a2e79e1ce, type: 2}
+              m_ObjectArgumentAssemblyTypeName: AnimationFrames, Assembly-CSharp
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 0
+            m_CallState: 2
+    - text: (Take)
+      nextLineIndex: 8
+      onSelected:
+        m_PersistentCalls:
+          m_Calls:
+          - m_Target: {fileID: 11400000}
+            m_TargetAssemblyTypeName: DialogAsset, Assembly-CSharp
+            m_MethodName: ChangeAnimationFrames
+            m_Mode: 2
+            m_Arguments:
+              m_ObjectArgument: {fileID: 11400000, guid: 8441c76c58265b94590c748a2e79e1ce, type: 2}
+              m_ObjectArgumentAssemblyTypeName: AnimationFrames, Assembly-CSharp
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 0
+            m_CallState: 2
+    - text: (Take)
+      nextLineIndex: 8
+      onSelected:
+        m_PersistentCalls:
+          m_Calls:
+          - m_Target: {fileID: 11400000}
+            m_TargetAssemblyTypeName: DialogAsset, Assembly-CSharp
+            m_MethodName: ChangeAnimationFrames
+            m_Mode: 2
+            m_Arguments:
+              m_ObjectArgument: {fileID: 11400000, guid: 8441c76c58265b94590c748a2e79e1ce, type: 2}
+              m_ObjectArgumentAssemblyTypeName: AnimationFrames, Assembly-CSharp
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 0
+            m_CallState: 2
+    - text: (Take)
+      nextLineIndex: 8
+      onSelected:
+        m_PersistentCalls:
+          m_Calls:
+          - m_Target: {fileID: 11400000}
+            m_TargetAssemblyTypeName: DialogAsset, Assembly-CSharp
+            m_MethodName: ChangeAnimationFrames
+            m_Mode: 2
+            m_Arguments:
+              m_ObjectArgument: {fileID: 11400000, guid: 8441c76c58265b94590c748a2e79e1ce, type: 2}
+              m_ObjectArgumentAssemblyTypeName: AnimationFrames, Assembly-CSharp
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 0
+            m_CallState: 2
+  - npcText: "Go on, take it off! I can\u2019t wait any longer..."
+    answers:
+    - text: (Take)
+      nextLineIndex: 8
+      onSelected:
+        m_PersistentCalls:
+          m_Calls:
+          - m_Target: {fileID: 11400000}
+            m_TargetAssemblyTypeName: DialogAsset, Assembly-CSharp
+            m_MethodName: ChangeAnimationFrames
+            m_Mode: 2
+            m_Arguments:
+              m_ObjectArgument: {fileID: 11400000, guid: 8441c76c58265b94590c748a2e79e1ce, type: 2}
+              m_ObjectArgumentAssemblyTypeName: AnimationFrames, Assembly-CSharp
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 0
+            m_CallState: 2
+  - npcText: '!!!!'
+    answers:
+    - text: (Grab)
+      nextLineIndex: 9
+      onSelected:
+        m_PersistentCalls:
+          m_Calls: []
+  - npcText: Hhhhgffrhtgrthgtrtght
+    answers:
+    - text: (Pull)
+      nextLineIndex: 10
+      onSelected:
+        m_PersistentCalls:
+          m_Calls:
+          - m_Target: {fileID: 11400000}
+            m_TargetAssemblyTypeName: DialogAsset, Assembly-CSharp
+            m_MethodName: ChangeAnimationFrames
+            m_Mode: 2
+            m_Arguments:
+              m_ObjectArgument: {fileID: 11400000, guid: e0fbea5117d28b047b741f96afcd74fe, type: 2}
+              m_ObjectArgumentAssemblyTypeName: AnimationFrames, Assembly-CSharp
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 0
+            m_CallState: 2
+  - npcText: Huf... hu... huu...
+    answers:
+    - text: Are... are you alright?
+      nextLineIndex: 11
+      onSelected:
+        m_PersistentCalls:
+          m_Calls: []
+  - npcText: Thank you. I feel... More like myself, now. Take this.
+    answers:
+    - text: (Take and leave)
+      nextLineIndex: -1
+      onSelected:
+        m_PersistentCalls:
+          m_Calls:
+          - m_Target: {fileID: 11400000}
+            m_TargetAssemblyTypeName: DialogAsset, Assembly-CSharp
+            m_MethodName: GivePentacleItem
+            m_Mode: 2
+            m_Arguments:
+              m_ObjectArgument: {fileID: 11400000, guid: 8901c800b7088ce41ba9ce5efc5438df, type: 2}
+              m_ObjectArgumentAssemblyTypeName: CollectibleItem, Assembly-CSharp
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 0
+            m_CallState: 2
+          - m_Target: {fileID: 11400000}
+            m_TargetAssemblyTypeName: DialogAsset, Assembly-CSharp
+            m_MethodName: ChangeAnimationFrames
+            m_Mode: 2
+            m_Arguments:
+              m_ObjectArgument: {fileID: 11400000, guid: c178478bc7493d84da817d4d4086e75f, type: 2}
+              m_ObjectArgumentAssemblyTypeName: AnimationFrames, Assembly-CSharp
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 0
+            m_CallState: 2
+  interlocutorName: Guardian

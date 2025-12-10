@@ -10,12 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4491d824fb3a69443b8fcb575ee7acb0, type: 3}
-  m_Name: NurseQuestion
+  m_Name: GuardianIdleBlood
   m_EditorClassIdentifier: 
-  animationName: Nurse
+  animationName: Guardian
   framesList:
-  - {fileID: 21300000, guid: 160a148ddec3c67489b6d88d94072da7, type: 3}
-  - {fileID: 21300000, guid: 8156f46d3c2bf254080ca29e0605e706, type: 3}
-  - {fileID: 21300000, guid: 7ea55a829245fac4cb0c2a45291cb1e1, type: 3}
-  - {fileID: 21300000, guid: 51166809d125275459b10a6a4cc1d8a0, type: 3}
-  animationSpeed: 3.5
+  - {fileID: 21300000, guid: f152fb288f14eac47bf074274f70980c, type: 3}
+  - {fileID: 21300000, guid: efef554227e00d342a1091d46365239a, type: 3}
+  - {fileID: 21300000, guid: 0dc2b9cd3173ec644b0702da68f65fb9, type: 3}
+  - {fileID: 21300000, guid: cceb17af3e87fdf418b88d6a9d841a37, type: 3}
+  animationSpeed: 2
