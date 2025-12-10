@@ -252,7 +252,7 @@ MonoBehaviour:
   StringsBanks:
   - {fileID: 2061791747408428054}
   cacheVersion: 131857
-  cacheTime: 639009816269749018
+  cacheTime: 639009877843013379
   SerializableEventsDict:
   - key: event:/Heartbeat
     index: 0
@@ -324,7 +324,7 @@ MonoBehaviour:
   Path: FMOD/SoundProject/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 639009816269749018
+  lastModified: 639009877843013379
   FileSizes:
   - Name: Desktop
     Value: 1352
@@ -479,7 +479,7 @@ MonoBehaviour:
   Path: FMOD/SoundProject/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 639009816269749018
+  lastModified: 639009877842999100
   FileSizes:
   - Name: Desktop
     Value: 16044960
