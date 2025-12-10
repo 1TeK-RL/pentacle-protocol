@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a1492183f175b647b54549dd874c155, type: 3}
   m_Name: Coin
   m_EditorClassIdentifier: 
-  itemName: coin.ptc
+  itemName: coin.dev
   itemImage: {fileID: 1511136511, guid: 9125735b81a8f7448a786592b980bc20, type: 3}
   description: A coin to pay Charon

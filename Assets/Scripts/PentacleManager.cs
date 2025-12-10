@@ -13,7 +13,9 @@ public class PentacleManager : MonoBehaviour
     [SerializeField] private GridLayoutGroup inventoryGrid;
     [SerializeField] private GameObject pentaclePrefab; // Prefab to spawn PentacleItems
 
-    [SerializeField] private float waitTime = 6f; // seconds
+    [SerializeField] private float waitTime = 2f; // seconds
+
+    [SerializeField] private Button startButton;
 
     private GameManager gameManager;
 
@@ -21,6 +23,18 @@ public class PentacleManager : MonoBehaviour
     {
         gameManager = GameManager.Instance;
         RefreshInventory();
+    }
+
+    private void Update()
+    {
+        if (PentacleSlots[0].GetPentacleItem() == null)
+        {
+            startButton.interactable = false;
+        }
+        else
+        {
+            startButton.interactable = true;
+        }
     }
 
     /// <summary>
