@@ -2069,8 +2069,24 @@ PrefabInstance:
       value: 70
       objectReference: {fileID: 0}
     - target: {fileID: 2349024070832943489, guid: d2563238fc6c5954ca6b083846b30cd2, type: 3}
+      propertyPath: m_ScaleFactor
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2349024070832943489, guid: d2563238fc6c5954ca6b083846b30cd2, type: 3}
+      propertyPath: m_UiScaleMode
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2349024070832943489, guid: d2563238fc6c5954ca6b083846b30cd2, type: 3}
+      propertyPath: m_ScreenMatchMode
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2349024070832943489, guid: d2563238fc6c5954ca6b083846b30cd2, type: 3}
       propertyPath: m_PresetInfoIsWorld
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2349024070832943489, guid: d2563238fc6c5954ca6b083846b30cd2, type: 3}
+      propertyPath: m_MatchWidthOrHeight
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2394436006561795512, guid: d2563238fc6c5954ca6b083846b30cd2, type: 3}
       propertyPath: m_SizeDelta.x
@@ -2454,6 +2470,10 @@ PrefabInstance:
       objectReference: {fileID: 519420031}
     - target: {fileID: 6038626185198478664, guid: d2563238fc6c5954ca6b083846b30cd2, type: 3}
       propertyPath: m_RenderMode
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6038626185198478664, guid: d2563238fc6c5954ca6b083846b30cd2, type: 3}
+      propertyPath: m_PixelPerfect
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6079088554876934724, guid: d2563238fc6c5954ca6b083846b30cd2, type: 3}
