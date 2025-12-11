@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8528a1847f61d1c438dc874d4aed6a16, type: 3}
+  m_Name: MrXDialog
+  m_EditorClassIdentifier: 
+  lines:
+  - npcText: Hum... What do you want ?
+    answers:
+    - text: Who are you ?
+      nextLineIndex: 1
+      onSelected:
+        m_PersistentCalls:
+          m_Calls: []
+    - text: What are you doing here ?
+      nextLineIndex: 2
+      onSelected:
+        m_PersistentCalls:
+          m_Calls: []
+    - text: How long have you been here ?
+      nextLineIndex: 3
+      onSelected:
+        m_PersistentCalls:
+          m_Calls: []
+    - text: I have to go. (Leave)
+      nextLineIndex: -1
+      onSelected:
+        m_PersistentCalls:
+          m_Calls: []
+  - npcText: "I am... Huh, wait... I didn\u2019t bother to give myself a name around
+      here, don\u2019t even need it.\nI guess you can find me on LinkedIn."
+    answers:
+    - text: Oh, ok...
+      nextLineIndex: -1
+      onSelected:
+        m_PersistentCalls:
+          m_Calls: []
+  - npcText: "You shouldn\u2019t stuff your nose in other people\u2019s busyness.\LI
+      have some appointment, obviously."
+    answers:
+    - text: Oh, ok...
+      nextLineIndex: -1
+      onSelected:
+        m_PersistentCalls:
+          m_Calls: []
+  - npcText: "How long? How could I possibly know... Didn\u2019t you notice the clock
+      isn\u2019t even working?"
+    answers:
+    - text: Oh, ok...
+      nextLineIndex: -1
+      onSelected:
+        m_PersistentCalls:
+          m_Calls: []
+  interlocutorName: ???????
