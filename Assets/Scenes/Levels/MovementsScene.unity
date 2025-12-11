@@ -4538,6 +4538,10 @@ PrefabInstance:
       propertyPath: type
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1179338633248158449, guid: bdd23d105bda7fc4d9563d198c01e8cb, type: 3}
+      propertyPath: nextRoomPOV
+      value: 
+      objectReference: {fileID: 1840316296}
     - target: {fileID: 1617247341272179255, guid: bdd23d105bda7fc4d9563d198c01e8cb, type: 3}
       propertyPath: m_Name
       value: HospitalRoomNorth
@@ -4562,6 +4566,10 @@ PrefabInstance:
       propertyPath: m_ConstrainProportionsScale
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1784935615012556936, guid: bdd23d105bda7fc4d9563d198c01e8cb, type: 3}
+      propertyPath: nextRoomPOV
+      value: 
+      objectReference: {fileID: 1703301305}
     - target: {fileID: 2124653923785402924, guid: bdd23d105bda7fc4d9563d198c01e8cb, type: 3}
       propertyPath: cursorType
       value: 4
@@ -4602,14 +4610,34 @@ PrefabInstance:
       propertyPath: type
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 3959958128648713225, guid: bdd23d105bda7fc4d9563d198c01e8cb, type: 3}
+      propertyPath: nextRoomPOV
+      value: 
+      objectReference: {fileID: 1233669387}
+    - target: {fileID: 4498004963794097776, guid: bdd23d105bda7fc4d9563d198c01e8cb, type: 3}
+      propertyPath: nextRoomPOV
+      value: 
+      objectReference: {fileID: 1233669384}
+    - target: {fileID: 5319104261491059819, guid: bdd23d105bda7fc4d9563d198c01e8cb, type: 3}
+      propertyPath: nextRoomPOV
+      value: 
+      objectReference: {fileID: 1233669387}
     - target: {fileID: 5763770771728989357, guid: bdd23d105bda7fc4d9563d198c01e8cb, type: 3}
       propertyPath: m_Name
       value: HospitalRoomEast
       objectReference: {fileID: 0}
+    - target: {fileID: 6062970295886291956, guid: bdd23d105bda7fc4d9563d198c01e8cb, type: 3}
+      propertyPath: nextRoomPOV
+      value: 
+      objectReference: {fileID: 1840316296}
     - target: {fileID: 7339125461640085603, guid: bdd23d105bda7fc4d9563d198c01e8cb, type: 3}
       propertyPath: type
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 7485128502961916138, guid: bdd23d105bda7fc4d9563d198c01e8cb, type: 3}
+      propertyPath: nextRoomPOV
+      value: 
+      objectReference: {fileID: 1703301305}
     - target: {fileID: 7872653854019936794, guid: bdd23d105bda7fc4d9563d198c01e8cb, type: 3}
       propertyPath: type
       value: 1
@@ -4638,6 +4666,10 @@ PrefabInstance:
       propertyPath: cursorType
       value: 4
       objectReference: {fileID: 0}
+    - target: {fileID: 8796157685126825845, guid: bdd23d105bda7fc4d9563d198c01e8cb, type: 3}
+      propertyPath: nextRoomPOV
+      value: 
+      objectReference: {fileID: 1233669384}
     - target: {fileID: 8817564364998210817, guid: bdd23d105bda7fc4d9563d198c01e8cb, type: 3}
       propertyPath: m_LocalScale.x
       value: 1

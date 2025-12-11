@@ -31,7 +31,7 @@ public class DialogAsset : ScriptableObject
 
     public void PlaySoundEye()
     {
-
+        AudioManager.Instance.PlaySpoonEyeSound();
     }
 
     public void ChangeAmbianceSound()

@@ -219,4 +219,9 @@ public class DialogManager : MonoBehaviour
     {
         AudioManager.Instance.SetGuardianVoice();
     }
+
+    public void SetHeartbeatVoice()
+    {
+        AudioManager.Instance.SetHeartbeatVoice();
+    }
 }
