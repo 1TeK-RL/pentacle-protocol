@@ -9,9 +9,8 @@ public class GameManager : MonoBehaviour
     private Dictionary<string, bool> worldStates = new();
 
 
-    [Header("Collectible Items for debug")]
-    [SerializeField] private CollectibleItem coinItem;
-    [SerializeField] private CollectibleItem eyeItem;
+    [Header("Collectible Item for demo")]
+    [SerializeField] private CollectibleItem spoonItem;
 
     private Dictionary<CollectibleItem, InventoryState> inventory;
 
@@ -34,8 +33,7 @@ public class GameManager : MonoBehaviour
         inventory = new Dictionary<CollectibleItem, InventoryState>();
 
         // Initialize inventory with starting items for debug
-        AddItem(coinItem);
-        AddItem(eyeItem);
+        AddItem(spoonItem);
     }
 
     public void DebugThis(string message)
@@ -68,7 +66,7 @@ public class GameManager : MonoBehaviour
             return inventory[item] == InventoryState.Pentacled;
         else
         {
-            Debug.LogWarning($"Trying to check state of item '{item.name}' not in inventory.");
+            Debug.Log($"Trying to check state of item '{item.name}' not in inventory.");
             return false;
         }
     }

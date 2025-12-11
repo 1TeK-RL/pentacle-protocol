@@ -43,7 +43,8 @@ public class DialogManager : MonoBehaviour
         dialogBox.SetActive(true);
         interlocutorName.text = asset.interlocutorName;
         ShowLine();
-        interlocutorSprite.PlayAnimation();
+        if (interlocutorSprite != null)
+            interlocutorSprite.PlayAnimation();
 
         // Start instance of voice
         AudioManager.Instance.StartDialogVoice();
@@ -83,7 +84,7 @@ public class DialogManager : MonoBehaviour
         }
 
         // Display NPC text word by word
-        RevealLine(currentLine, interlocutorText, 0.01f);
+        RevealLine(currentLine, interlocutorText, textRevealSpeed);
     }
 
     private void DisplayAnswers()

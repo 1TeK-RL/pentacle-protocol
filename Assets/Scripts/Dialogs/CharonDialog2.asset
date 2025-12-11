@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8528a1847f61d1c438dc874d4aed6a16, type: 3}
-  m_Name: CharonDialog1
+  m_Name: CharonDialog2
   m_EditorClassIdentifier: 
   lines:
   - npcText: "Welcome, wandering user\u2026 to the threshold of the Infernet. I am
@@ -34,17 +34,10 @@ MonoBehaviour:
     answers: []
   - npcText: Lore
     answers: []
-  - npcText: You know... I can see through the pathetic lines of code emulating your
-      soul. Stop lying to me you bug ! Or I will drive you to <color=#ff2c2c>cerber.os</color>
-      to be eaten alive !
+  - npcText: Ahhh, you finally brought something for me. I will drop you by the <color=#00bcff>Penitentiary</color>.
     answers:
-    - text: (Don't say anything)
-      nextLineIndex: 5
-      onSelected:
-        m_PersistentCalls:
-          m_Calls: []
-    - text: Sorry...
-      nextLineIndex: 5
+    - text: (Hand the coin)
+      nextLineIndex: -1
       onSelected:
         m_PersistentCalls:
           m_Calls: []

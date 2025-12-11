@@ -10,11 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4491d824fb3a69443b8fcb575ee7acb0, type: 3}
-  m_Name: GuardianHandIn
+  m_Name: GuardianIdle
   m_EditorClassIdentifier: 
   animationName: Guardian
   framesList:
-  - {fileID: 21300000, guid: 489935c2b333139489c99d8a77203d7b, type: 3}
-  - {fileID: 21300000, guid: 33a3d008213d89d43ac286e162248931, type: 3}
-  - {fileID: 21300000, guid: 4ba552673d4200441bb94b77982c6385, type: 3}
-  animationSpeed: 3.5
+  - {fileID: 21300000, guid: fcd3ea6459ac46243bc85064ea3adb00, type: 3}
+  - {fileID: 21300000, guid: d54910d4c0605104cbc32a450d1924b9, type: 3}
+  - {fileID: 21300000, guid: 339627e15b67ef34c8c5e4525d9f22d1, type: 3}
+  - {fileID: 21300000, guid: 12b27b1d6cf6d4743977c3bdd7a22107, type: 3}
+  animationSpeed: 2

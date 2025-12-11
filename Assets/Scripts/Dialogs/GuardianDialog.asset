@@ -61,8 +61,8 @@ MonoBehaviour:
       onSelected:
         m_PersistentCalls:
           m_Calls: []
-  - npcText: I see you brought a spoon here... I promise to help you, if you help
-      me with something first. Deal?
+  - npcText: I see you brought a <color=#FFFF00>spoon</color> here... I promise to
+      help you, if you help me with something first. Deal?
     answers:
     - text: Ok, sure! How can I help ?
       nextLineIndex: 5
@@ -207,8 +207,20 @@ MonoBehaviour:
       nextLineIndex: 11
       onSelected:
         m_PersistentCalls:
-          m_Calls: []
-  - npcText: Thank you. I feel... More like myself, now. Take this.
+          m_Calls:
+          - m_Target: {fileID: 11400000}
+            m_TargetAssemblyTypeName: DialogAsset, Assembly-CSharp
+            m_MethodName: ChangeAnimationFrames
+            m_Mode: 2
+            m_Arguments:
+              m_ObjectArgument: {fileID: 11400000, guid: 1241ae2aabea7f14bba2b6e55079cdb6, type: 2}
+              m_ObjectArgumentAssemblyTypeName: AnimationFrames, Assembly-CSharp
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 0
+            m_CallState: 2
+  - npcText: Thank you. I feel... More like myself, now. Take this <color=#FFFF00>coin</color>.
     answers:
     - text: (Take and leave)
       nextLineIndex: -1
