@@ -30,7 +30,6 @@ public class ItemSpot : MonoBehaviour, IDropHandler
     {
         if (transform.childCount == 0)
         {
-            Debug.Log("returning null");
             return null;
         }
 

@@ -1,7 +1,10 @@
 fileFormatVersion: 2
-guid: 70dd53e10c5de5745b48b4284c91f3af
+guid: a226a392cc3d4a8479fd31340e288ded
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: -8620124010564215489
+    second: spoon32_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -39,17 +42,17 @@ TextureImporter:
     mipBias: 0
     wrapU: 1
     wrapV: 1
-    wrapW: 0
+    wrapW: 1
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 2
+  spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 100
-  spriteBorder: {x: 31, y: 0, z: 64, w: 97}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
   alphaIsTransparency: 1
@@ -69,10 +72,10 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 4
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 128
-    resizeAlgorithm: 1
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 3
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -110,23 +113,23 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: nails_13
+      name: spoon32_0
       rect:
         serializedVersion: 2
-        x: 98
-        y: 32
-        width: 30
-        height: 31
+        x: 0
+        y: 0
+        width: 32
+        height: 34
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 28, y: 0, z: 0, w: 0}
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 8cb5f8fb0ccaa324d9add6f019209e48
-      internalID: 1232200512
+      spriteID: f3d118e32ea2f5880800000000000000
+      internalID: -8620124010564215489
       vertices: []
       indices: 
       edges: []
@@ -135,8 +138,8 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 59b1dbb9341599a44a4ab4e86dd7dbeb
-    internalID: 391966688
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
     vertices: []
     indices: 
     edges: []
@@ -145,23 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      nails 1_0: 1959826777
-      nails_0: 798837358
-      nails_1: -38228892
-      nails_10: 783380900
-      nails_11: 1511136511
-      nails_12: -1500836625
-      nails_13: 1232200512
-      nails_14: -1694777995
-      nails_15: -1977989077
-      nails_2: 1652491997
-      nails_3: 1514228431
-      nails_4: 1043826669
-      nails_5: 1348098196
-      nails_6: -133626188
-      nails_7: 1841703257
-      nails_8: -859805728
-      nails_9: -626664868
+      spoon32_0: -8620124010564215489
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

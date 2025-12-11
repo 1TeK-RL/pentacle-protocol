@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: Spoon
   m_EditorClassIdentifier: 
   itemName: spoon.dev
-  itemImage: {fileID: 798837358, guid: 9125735b81a8f7448a786592b980bc20, type: 3}
+  itemImage: {fileID: 21300000, guid: a226a392cc3d4a8479fd31340e288ded, type: 3}
   description: A spoon ???

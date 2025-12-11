@@ -61,8 +61,8 @@ MonoBehaviour:
       onSelected:
         m_PersistentCalls:
           m_Calls: []
-  - npcText: I see you brought a spoon here... I promise to help you, if you help
-      me with something first. Deal?
+  - npcText: I see you brought a <color=#FFFF00>spoon</color> here... I promise to
+      help you, if you help me with something first. Deal?
     answers:
     - text: Ok, sure! How can I help ?
       nextLineIndex: 5
@@ -208,7 +208,7 @@ MonoBehaviour:
       onSelected:
         m_PersistentCalls:
           m_Calls: []
-  - npcText: Thank you. I feel... More like myself, now. Take this.
+  - npcText: Thank you. I feel... More like myself, now. Take this <color=#FFFF00>coin</color>.
     answers:
     - text: (Take and leave)
       nextLineIndex: -1
