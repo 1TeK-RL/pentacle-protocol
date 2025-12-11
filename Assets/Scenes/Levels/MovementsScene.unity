@@ -1004,7 +1004,7 @@ PrefabInstance:
       objectReference: {fileID: 1055617740}
     - target: {fileID: -1631945178086614737, guid: 27d61912c83de6c4b9696a3aecc947c6, type: 3}
       propertyPath: onClick.m_PersistentCalls.m_Calls.Array.size
-      value: 4
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: -1631945178086614737, guid: 27d61912c83de6c4b9696a3aecc947c6, type: 3}
       propertyPath: onClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
@@ -1045,7 +1045,7 @@ PrefabInstance:
     - target: {fileID: -1631945178086614737, guid: 27d61912c83de6c4b9696a3aecc947c6, type: 3}
       propertyPath: onClick.m_PersistentCalls.m_Calls.Array.data[3].m_Target
       value: 
-      objectReference: {fileID: 2090347100}
+      objectReference: {fileID: 11400000, guid: 7b5276d4a57dd964ab82cd6204de1e2d, type: 2}
     - target: {fileID: -1631945178086614737, guid: 27d61912c83de6c4b9696a3aecc947c6, type: 3}
       propertyPath: onClick.m_PersistentCalls.m_Calls.Array.data[4].m_Target
       value: 
@@ -1092,11 +1092,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -1631945178086614737, guid: 27d61912c83de6c4b9696a3aecc947c6, type: 3}
       propertyPath: onClick.m_PersistentCalls.m_Calls.Array.data[3].m_MethodName
-      value: StartDialog
+      value: ChangeAnimationFrames
       objectReference: {fileID: 0}
     - target: {fileID: -1631945178086614737, guid: 27d61912c83de6c4b9696a3aecc947c6, type: 3}
       propertyPath: onClick.m_PersistentCalls.m_Calls.Array.data[4].m_MethodName
-      value: SetPreviousPOV
+      value: StartDialog
       objectReference: {fileID: 0}
     - target: {fileID: -1631945178086614737, guid: 27d61912c83de6c4b9696a3aecc947c6, type: 3}
       propertyPath: onClick.m_PersistentCalls.m_Calls.Array.data[5].m_MethodName
@@ -1116,7 +1116,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -1631945178086614737, guid: 27d61912c83de6c4b9696a3aecc947c6, type: 3}
       propertyPath: onClick.m_PersistentCalls.m_Calls.Array.data[3].m_TargetAssemblyTypeName
-      value: DialogManager, Assembly-CSharp
+      value: DialogAsset, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: -1631945178086614737, guid: 27d61912c83de6c4b9696a3aecc947c6, type: 3}
       propertyPath: onClick.m_PersistentCalls.m_Calls.Array.data[4].m_TargetAssemblyTypeName
@@ -1141,11 +1141,11 @@ PrefabInstance:
     - target: {fileID: -1631945178086614737, guid: 27d61912c83de6c4b9696a3aecc947c6, type: 3}
       propertyPath: onClick.m_PersistentCalls.m_Calls.Array.data[3].m_Arguments.m_ObjectArgument
       value: 
-      objectReference: {fileID: 11400000, guid: 7b5276d4a57dd964ab82cd6204de1e2d, type: 2}
+      objectReference: {fileID: 11400000, guid: 7212917d0e3a5b24db7ad5fc11e6e35e, type: 2}
     - target: {fileID: -1631945178086614737, guid: 27d61912c83de6c4b9696a3aecc947c6, type: 3}
       propertyPath: onClick.m_PersistentCalls.m_Calls.Array.data[4].m_Arguments.m_ObjectArgument
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 11400000, guid: 7b5276d4a57dd964ab82cd6204de1e2d, type: 2}
     - target: {fileID: -1631945178086614737, guid: 27d61912c83de6c4b9696a3aecc947c6, type: 3}
       propertyPath: onClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
@@ -1160,11 +1160,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -1631945178086614737, guid: 27d61912c83de6c4b9696a3aecc947c6, type: 3}
       propertyPath: onClick.m_PersistentCalls.m_Calls.Array.data[3].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: DialogAsset, Assembly-CSharp
+      value: AnimationFrames, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: -1631945178086614737, guid: 27d61912c83de6c4b9696a3aecc947c6, type: 3}
       propertyPath: onClick.m_PersistentCalls.m_Calls.Array.data[4].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: UnityEngine.GameObject, UnityEngine
+      value: DialogAsset, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: -1631945178086614737, guid: 27d61912c83de6c4b9696a3aecc947c6, type: 3}
       propertyPath: onClick.m_PersistentCalls.m_Calls.Array.data[5].m_Arguments.m_ObjectArgumentAssemblyTypeName

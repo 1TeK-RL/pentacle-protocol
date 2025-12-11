@@ -1,0 +1,598 @@
+fileFormatVersion: 2
+guid: 10fdc245da6300143a1c9b322d59db58
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2152483404703145439
+    second: IdleBlood01_0
+  - first:
+      213: -3534802881240238414
+    second: IdleBlood01_1
+  - first:
+      213: 6928079801294809807
+    second: IdleBlood01_2
+  - first:
+      213: -195312369104097366
+    second: IdleBlood01_3
+  - first:
+      213: 2131169065741250087
+    second: IdleBlood01_4
+  - first:
+      213: -5369248564547248845
+    second: IdleBlood01_5
+  - first:
+      213: -689608967470368253
+    second: IdleBlood01_6
+  - first:
+      213: 5362095125644240199
+    second: IdleBlood01_7
+  - first:
+      213: -8141710107742603916
+    second: IdleBlood01_8
+  - first:
+      213: -203142589654816991
+    second: IdleBlood01_9
+  - first:
+      213: 6657948218047825487
+    second: IdleBlood01_10
+  - first:
+      213: -794396204842805217
+    second: IdleBlood01_11
+  - first:
+      213: -8561788828423099650
+    second: IdleBlood01_12
+  - first:
+      213: 677699308156066028
+    second: IdleBlood01_13
+  - first:
+      213: 3088465075467381835
+    second: IdleBlood01_14
+  - first:
+      213: -5244812360675514315
+    second: IdleBlood01_15
+  - first:
+      213: -9176328063790751295
+    second: IdleBlood01_16
+  - first:
+      213: 3562055495412687738
+    second: IdleBlood01_17
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: IdleBlood01_0
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 41
+        width: 17
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fdd114290482fdd10800000000000000
+      internalID: 2152483404703145439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IdleBlood01_1
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 10
+        width: 53
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b6f5a8f18bd1fec0800000000000000
+      internalID: -3534802881240238414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IdleBlood01_2
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 0
+        width: 828
+        height: 995
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fca6cbb6fdb752060800000000000000
+      internalID: 6928079801294809807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IdleBlood01_3
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 18
+        width: 32
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aaf6f436f6c1a4df0800000000000000
+      internalID: -195312369104097366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IdleBlood01_4
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 34
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72eeecf49fe639d10800000000000000
+      internalID: 2131169065741250087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IdleBlood01_5
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 0
+        width: 48
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33d9267c0e89c75b0800000000000000
+      internalID: -5369248564547248845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IdleBlood01_6
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 0
+        width: 11
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30a310c3c440e66f0800000000000000
+      internalID: -689608967470368253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IdleBlood01_7
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 7
+        width: 24
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 745e0ef6b1df96a40800000000000000
+      internalID: 5362095125644240199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IdleBlood01_8
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 15
+        width: 28
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4757bcb2bc5d20f80800000000000000
+      internalID: -8141710107742603916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IdleBlood01_9
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 0
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1272fd814ea4e2df0800000000000000
+      internalID: -203142589654816991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IdleBlood01_10
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 0
+        width: 29
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f468fa501a8c56c50800000000000000
+      internalID: 6657948218047825487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IdleBlood01_11
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 11
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f181d6f4cdcb9f4f0800000000000000
+      internalID: -794396204842805217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IdleBlood01_12
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 0
+        width: 13
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: efaeeef3c6a6e2980800000000000000
+      internalID: -8561788828423099650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IdleBlood01_13
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 0
+        width: 75
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce89b2f1eeba76900800000000000000
+      internalID: 677699308156066028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IdleBlood01_14
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 0
+        width: 15
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4cee6c6f9e6cda20800000000000000
+      internalID: 3088465075467381835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IdleBlood01_15
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 0
+        width: 20
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 538ab5832fea637b0800000000000000
+      internalID: -5244812360675514315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IdleBlood01_16
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 0
+        width: 8
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c1ed478e3227a080800000000000000
+      internalID: -9176328063790751295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IdleBlood01_17
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 0
+        width: 76
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a732d4ab996fe6130800000000000000
+      internalID: 3562055495412687738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      IdleBlood01_0: 2152483404703145439
+      IdleBlood01_1: -3534802881240238414
+      IdleBlood01_10: 6657948218047825487
+      IdleBlood01_11: -794396204842805217
+      IdleBlood01_12: -8561788828423099650
+      IdleBlood01_13: 677699308156066028
+      IdleBlood01_14: 3088465075467381835
+      IdleBlood01_15: -5244812360675514315
+      IdleBlood01_16: -9176328063790751295
+      IdleBlood01_17: 3562055495412687738
+      IdleBlood01_2: 6928079801294809807
+      IdleBlood01_3: -195312369104097366
+      IdleBlood01_4: 2131169065741250087
+      IdleBlood01_5: -5369248564547248845
+      IdleBlood01_6: -689608967470368253
+      IdleBlood01_7: 5362095125644240199
+      IdleBlood01_8: -8141710107742603916
+      IdleBlood01_9: -203142589654816991
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

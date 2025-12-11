@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   animationName: Guardian
   framesList:
-  - {fileID: 21300000, guid: f152fb288f14eac47bf074274f70980c, type: 3}
-  - {fileID: 21300000, guid: efef554227e00d342a1091d46365239a, type: 3}
-  - {fileID: 21300000, guid: 0dc2b9cd3173ec644b0702da68f65fb9, type: 3}
-  - {fileID: 21300000, guid: cceb17af3e87fdf418b88d6a9d841a37, type: 3}
+  - {fileID: 21300000, guid: 81b437b50fb5c0b4b83b84542f9e6c03, type: 3}
+  - {fileID: 21300000, guid: 27f37e87578a6234dbe8dc72c70906f4, type: 3}
+  - {fileID: 21300000, guid: 2f4182f65e996fc43a498808ce13f1c9, type: 3}
+  - {fileID: 21300000, guid: 0d58bbea9d7abe747af65d575b15c5fa, type: 3}
   animationSpeed: 2
