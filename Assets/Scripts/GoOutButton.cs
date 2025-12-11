@@ -16,6 +16,10 @@ public class GoOutButton : MonoBehaviour
 
     private async void OnClick()
     {
+        AudioManager.Instance.StopDialogVoice();
+        AudioManager.Instance.ReleaseDialogVoice();
+        AudioManager.Instance.StopAmbiance();
+        AudioManager.Instance.ReleaseAmbiance();
         await EventManager.Instance.SceneLoader.PlayCutsceneAsync("GoOut", "DeskScene");
     }
 }

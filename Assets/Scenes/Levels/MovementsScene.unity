@@ -213,7 +213,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -1631945178086614737, guid: 27d61912c83de6c4b9696a3aecc947c6, type: 3}
       propertyPath: onClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: SetCharonVoice
+      value: SetHeartbeatVoice
       objectReference: {fileID: 0}
     - target: {fileID: -1631945178086614737, guid: 27d61912c83de6c4b9696a3aecc947c6, type: 3}
       propertyPath: onClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
@@ -5545,7 +5545,7 @@ PrefabInstance:
     - target: {fileID: 8796157685126825845, guid: bdd23d105bda7fc4d9563d198c01e8cb, type: 3}
       propertyPath: nextRoomPOV
       value: 
-      objectReference: {fileID: 1781889727}
+      objectReference: {fileID: 0}
     - target: {fileID: 8817564364998210817, guid: bdd23d105bda7fc4d9563d198c01e8cb, type: 3}
       propertyPath: m_LocalScale.x
       value: 2.9900002
