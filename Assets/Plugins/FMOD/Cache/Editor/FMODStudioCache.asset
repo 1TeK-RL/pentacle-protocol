@@ -80,7 +80,7 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 33320
+  Length: 51040
 --- !u!114 &-5270499783949045749
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -252,7 +252,7 @@ MonoBehaviour:
   StringsBanks:
   - {fileID: 2061791747408428054}
   cacheVersion: 131857
-  cacheTime: 639009877843013379
+  cacheTime: 639010494499473802
   SerializableEventsDict:
   - key: event:/Heartbeat
     index: 0
@@ -324,7 +324,7 @@ MonoBehaviour:
   Path: FMOD/SoundProject/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 639009877843013379
+  lastModified: 639010494499473802
   FileSizes:
   - Name: Desktop
     Value: 1352
@@ -479,8 +479,8 @@ MonoBehaviour:
   Path: FMOD/SoundProject/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 639009877842999100
+  lastModified: 639010494499463490
   FileSizes:
   - Name: Desktop
-    Value: 16044960
+    Value: 16967488
   Exists: 1

@@ -34,5 +34,8 @@ public class DialogAutoStart : MonoBehaviour
                 dialogManager.StartDialog(dialogToStart);
             }
         }
+
+        AudioManager.Instance.SetCarAmbiance();
+        AudioManager.Instance.StartAmbiance();
     }
 }

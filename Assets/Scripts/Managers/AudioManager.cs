@@ -9,8 +9,13 @@ public class AudioManager : MonoBehaviour
     [SerializeField] private EventReference charonVoiceEvent;
     [SerializeField] private EventReference nurseVoiceEvent;
     [SerializeField] private EventReference guardianVoiceEvent;
+    [SerializeField] private EventReference heartbeatVoiceEvent;
+
+    [SerializeField] private EventReference hospitalAmbiance;
+    [SerializeField] private EventReference carAmbiance;
 
     private EventInstance instanceDialog;
+    private EventInstance instanceAmbiance;
 
     private void Awake()
     {
@@ -69,6 +74,11 @@ public class AudioManager : MonoBehaviour
         RuntimeManager.PlayOneShot("event:/UI_burning");
     }
 
+    public void PlaySpoonEyeSound()
+    {
+        RuntimeManager.PlayOneShot("event:/Eye_ripping_off");
+    }
+
     public void SetCharonVoice()
     {
         instanceDialog = RuntimeManager.CreateInstance(charonVoiceEvent);
@@ -82,6 +92,11 @@ public class AudioManager : MonoBehaviour
     public void SetGuardianVoice()
     {
         instanceDialog = RuntimeManager.CreateInstance(guardianVoiceEvent);
+    }
+
+    public void SetHeartbeatVoice()
+    {
+        instanceDialog = RuntimeManager.CreateInstance(heartbeatVoiceEvent);
     }
 
     public void StartDialogVoice()
@@ -105,6 +120,40 @@ public class AudioManager : MonoBehaviour
         if (instanceDialog.isValid())
         {
             instanceDialog.release();
+        }
+    }
+
+    public void SetCarAmbiance()
+    {
+        instanceAmbiance = RuntimeManager.CreateInstance(carAmbiance);
+    }
+
+    public void SetHospitalAmbiance()
+    {
+        instanceAmbiance = RuntimeManager.CreateInstance(hospitalAmbiance);
+    }
+
+    public void StartAmbiance()
+    {
+        if (instanceAmbiance.isValid())
+        {
+            instanceAmbiance.start();
+        }
+    }
+
+    public void StopAmbiance()
+    {
+        if (instanceAmbiance.isValid())
+        {
+            instanceAmbiance.stop(FMOD.Studio.STOP_MODE.ALLOWFADEOUT);
+        }
+    }
+
+    public void ReleaseAmbiance()
+    {
+        if (instanceAmbiance.isValid())
+        {
+            instanceAmbiance.release();
         }
     }
 }

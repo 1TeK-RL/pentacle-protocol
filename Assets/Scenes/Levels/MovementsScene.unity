@@ -7952,11 +7952,11 @@ PrefabInstance:
     - target: {fileID: 5601977567761760125, guid: 9ecaa99fa43d5f3498f2cbf4cd51f195, type: 3}
       propertyPath: nextRoomPOV
       value: 
-      objectReference: {fileID: 1703301305}
+      objectReference: {fileID: 0}
     - target: {fileID: 7174231428201700348, guid: 9ecaa99fa43d5f3498f2cbf4cd51f195, type: 3}
       propertyPath: nextRoomPOV
       value: 
-      objectReference: {fileID: 1233669387}
+      objectReference: {fileID: 0}
     - target: {fileID: 7323902647012444986, guid: 9ecaa99fa43d5f3498f2cbf4cd51f195, type: 3}
       propertyPath: m_Name
       value: GuardianZoom
@@ -8110,7 +8110,7 @@ PrefabInstance:
     - target: {fileID: 7174231428201700348, guid: 9ecaa99fa43d5f3498f2cbf4cd51f195, type: 3}
       propertyPath: nextRoomPOV
       value: 
-      objectReference: {fileID: 1233669384}
+      objectReference: {fileID: 0}
     - target: {fileID: 7323902647012444986, guid: 9ecaa99fa43d5f3498f2cbf4cd51f195, type: 3}
       propertyPath: m_Name
       value: NurseZoom

@@ -228,6 +228,27 @@ MonoBehaviour:
       Data3: -1754143872
       Data4: -853706992
     Path: event:/Guardian's voice
+  heartbeatVoiceEvent:
+    Guid:
+      Data1: -1826240256
+      Data2: 1134269515
+      Data3: -1777881185
+      Data4: 1664494248
+    Path: event:/Heartbeat
+  hospitalAmbiance:
+    Guid:
+      Data1: -1618474465
+      Data2: 1202498745
+      Data3: -1846604925
+      Data4: -918890391
+    Path: event:/Ambiance
+  carAmbiance:
+    Guid:
+      Data1: 689411112
+      Data2: 1302488661
+      Data3: -1039202378
+      Data4: -1875361663
+    Path: event:/Car's sound
 --- !u!1 &1329570293
 GameObject:
   m_ObjectHideFlags: 0

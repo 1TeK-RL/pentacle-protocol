@@ -28,6 +28,19 @@ public class DialogAsset : ScriptableObject
     {
         EventManager.Instance.ChangeAnimationFrames(frames);
     }
+
+    public void PlaySoundEye()
+    {
+
+    }
+
+    public void ChangeAmbianceSound()
+    {
+        AudioManager.Instance.StopAmbiance();
+        AudioManager.Instance.ReleaseAmbiance();
+        AudioManager.Instance.SetHospitalAmbiance();
+        AudioManager.Instance.StartAmbiance();
+    }
 }
 
 [Serializable]
