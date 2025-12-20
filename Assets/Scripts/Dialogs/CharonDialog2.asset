@@ -12,11 +12,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8528a1847f61d1c438dc874d4aed6a16, type: 3}
   m_Name: CharonDialog2
   m_EditorClassIdentifier: 
+  interlocutorName: Charon
+  onStart:
+    m_PersistentCalls:
+      m_Calls: []
   lines:
-  - npcText: "Welcome, wandering user\u2026 to the threshold of the Infernet. I am
-      Charon, ferryman of the forgotten files. I can bring you to the <color=#00bcff>The
-      Penitentiary</color>. Like those uploaded before you, I expect you to bring
-      me a <color=#FFFF00>coin.dev</color>. Do you have one ?"
+  - npcText: Welcome back, I can bring you to the <color=#00bcff>The Penitentiary</color>.
+      Do you finally have a <color=#FFFF00>coin.dev</color> ?
     answers:
     - text: Yes.
       nextLineIndex: 4
@@ -34,15 +36,28 @@ MonoBehaviour:
     answers: []
   - npcText: Lore
     answers: []
-  - npcText: Ahhh, you finally brought something for me. I will drop you by the <color=#00bcff>Penitentiary</color>.
+  - npcText: Great. I will drive you to the <color=#00bcff>Penitentiary</color> then.
+      There, you will find what you seek.
     answers:
-    - text: (Hand the coin)
+    - text: Thank you (Leave the car)
       nextLineIndex: -1
       onSelected:
         m_PersistentCalls:
-          m_Calls: []
-  - npcText: Well I fear I can't drive you where you want... I can drop you by this
-      <color=#00bcff>Hospital</color>.
+          m_Calls:
+          - m_Target: {fileID: 11400000}
+            m_TargetAssemblyTypeName: DialogAsset, Assembly-CSharp
+            m_MethodName: ChangeAmbianceSound
+            m_Mode: 1
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 0
+            m_CallState: 2
+  - npcText: Well I fear I can't drive you where you want... I can leave you by this
+      <color=#00bcff>Hospital</color>. Get out now.
     answers:
     - text: (Leave the car)
       nextLineIndex: -1
@@ -61,4 +76,3 @@ MonoBehaviour:
               m_StringArgument: 
               m_BoolArgument: 0
             m_CallState: 2
-  interlocutorName: Charon

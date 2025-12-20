@@ -34,6 +34,23 @@ public class InteractibleClick : MonoBehaviour
         }
     }
 
+    private void OnMouseEnter()
+    {
+        if (!isOpened)
+        {
+            CursorManager.Instance.SetCursorType(CursorType.Cross);
+        }
+        else
+        {
+            CursorManager.Instance.SetCursorType(CursorType.Forward);
+        }
+    }
+
+    public void OnMouseExit()
+    {
+        CursorManager.Instance.SetCursorType(CursorType.Default);
+    }
+
     public void ChangeWorldState()
     {
         if (!string.IsNullOrEmpty(povName))

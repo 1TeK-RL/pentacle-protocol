@@ -10,8 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8528a1847f61d1c438dc874d4aed6a16, type: 3}
-  m_Name: GuardianDialog
+  m_Name: GuardianDialog1
   m_EditorClassIdentifier: 
+  interlocutorName: Guardian
+  onStart:
+    m_PersistentCalls:
+      m_Calls: []
   lines:
   - npcText: "Oh? It\u2019s unusual to see humans around here. Are you looking for
       something?"
@@ -73,7 +77,19 @@ MonoBehaviour:
       nextLineIndex: -1
       onSelected:
         m_PersistentCalls:
-          m_Calls: []
+          m_Calls:
+          - m_Target: {fileID: 11400000}
+            m_TargetAssemblyTypeName: DialogAsset, Assembly-CSharp
+            m_MethodName: ChangeAnimationFrames
+            m_Mode: 2
+            m_Arguments:
+              m_ObjectArgument: {fileID: 11400000, guid: 2ba10b648828a4b4e84c88ade66ecff6, type: 2}
+              m_ObjectArgumentAssemblyTypeName: AnimationFrames, Assembly-CSharp
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 0
+            m_CallState: 2
   - npcText: My left eye. Help me get rid of it.
     answers:
     - text: Huh... As you want.
@@ -232,7 +248,7 @@ MonoBehaviour:
               m_StringArgument: 
               m_BoolArgument: 0
             m_CallState: 2
-  - npcText: Thank you. I feel... More like myself, now. Take this <color=#FFFF00>coin</color>.
+  - npcText: Thank you. I feel... More like myself, now. Take this <color=#FFFF00>coin.dev</color>.
     answers:
     - text: (Take and leave)
       nextLineIndex: -1
@@ -263,4 +279,15 @@ MonoBehaviour:
               m_StringArgument: 
               m_BoolArgument: 0
             m_CallState: 2
-  interlocutorName: Guardian
+          - m_Target: {fileID: 11400000}
+            m_TargetAssemblyTypeName: DialogAsset, Assembly-CSharp
+            m_MethodName: SetGuardianQuestState
+            m_Mode: 6
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 1
+            m_CallState: 2

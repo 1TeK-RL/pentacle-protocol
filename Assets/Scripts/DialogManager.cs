@@ -38,6 +38,7 @@ public class DialogManager : MonoBehaviour
 
     public void StartDialog(DialogAsset asset)
     {
+        asset.onStart?.Invoke();
         currentDialog = asset;
         currentIndex = 0;
         dialogBox.SetActive(true);
@@ -62,6 +63,30 @@ public class DialogManager : MonoBehaviour
         }
     }
 
+    public void StartGuardianDialogWithQuestCondition()
+    {
+        if (GameManager.Instance.guardianQuestIsDone)
+        {
+            StartDialog(conditionalDialog);
+        }
+        else
+        {
+            StartDialog(defaultDialog);
+        }
+    }
+
+    public void StartNurseDialogWithQuestCondition()
+    {
+        if (GameManager.Instance.nurseQuestIsDone)
+        {
+            StartDialog(conditionalDialog);
+        }
+        else
+        {
+            StartDialog(defaultDialog);
+        }
+    }
+
     public void SetDefaultDialog(DialogAsset asset)
     {
         defaultDialog = asset;
@@ -75,6 +100,7 @@ public class DialogManager : MonoBehaviour
     public void ShowLine()
     {
         currentLine = currentDialog.lines[currentIndex].npcText;
+
 
         // Hide Buttons and the arrow, they will be activated later
         foreach (var button in answerButtons)
@@ -91,6 +117,7 @@ public class DialogManager : MonoBehaviour
     {
 
         int i = 0;
+
         foreach (var answer in currentDialog.lines[currentIndex].answers)
         {
 
@@ -203,6 +230,7 @@ public class DialogManager : MonoBehaviour
     public void SetInterlocutorSprite(AnimatedSprite animatedSprite)
     {
         interlocutorSprite = animatedSprite;
+        interlocutorSprite.PlayAnimation();
     }
 
     public void SetCharonVoice()

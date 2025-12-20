@@ -1,0 +1,858 @@
+fileFormatVersion: 2
+guid: 9ef7979026d3af44388b9ddd370e2ddc
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3025698479617162920
+    second: gobcnam_0
+  - first:
+      213: -4049482446715212754
+    second: gobcnam_1
+  - first:
+      213: 4959218570951153482
+    second: gobcnam_2
+  - first:
+      213: -7541325730495292896
+    second: gobcnam_3
+  - first:
+      213: -7085422782976697716
+    second: gobcnam_4
+  - first:
+      213: -8641030446533811273
+    second: gobcnam_5
+  - first:
+      213: 7424627258447546246
+    second: gobcnam_6
+  - first:
+      213: -2241192779648668314
+    second: gobcnam_7
+  - first:
+      213: 3117598414661384310
+    second: gobcnam_8
+  - first:
+      213: -9120722676530936578
+    second: gobcnam_9
+  - first:
+      213: 3377727645125967716
+    second: gobcnam_10
+  - first:
+      213: -1192551474715442182
+    second: gobcnam_11
+  - first:
+      213: 1557565514732345936
+    second: gobcnam_12
+  - first:
+      213: 6499904970435819096
+    second: gobcnam_13
+  - first:
+      213: 14710543369208168
+    second: gobcnam_14
+  - first:
+      213: -8405861712377450709
+    second: gobcnam_15
+  - first:
+      213: 6026278840147439995
+    second: gobcnam_16
+  - first:
+      213: 3824139864054823998
+    second: gobcnam_17
+  - first:
+      213: -2329103831569222050
+    second: gobcnam_18
+  - first:
+      213: -5061827250000236848
+    second: gobcnam_19
+  - first:
+      213: -8082611344533381616
+    second: gobcnam_20
+  - first:
+      213: -3421749132909080652
+    second: gobcnam_21
+  - first:
+      213: -6439660532090427329
+    second: gobcnam_22
+  - first:
+      213: 650127521228549860
+    second: gobcnam_23
+  - first:
+      213: -8743199026913584903
+    second: gobcnam_24
+  - first:
+      213: 2653812983947088519
+    second: gobcnam_25
+  - first:
+      213: -6365023960007461013
+    second: gobcnam_26
+  - first:
+      213: -5695507626623308521
+    second: gobcnam_27
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: gobcnam_0
+      rect:
+        serializedVersion: 2
+        x: 643
+        y: 606
+        width: 100
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ae35038cb07df920800000000000000
+      internalID: 3025698479617162920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gobcnam_1
+      rect:
+        serializedVersion: 2
+        x: 649
+        y: 691
+        width: 89
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2c2c577b295dc7c0800000000000000
+      internalID: -4049482446715212754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gobcnam_2
+      rect:
+        serializedVersion: 2
+        x: 1142
+        y: 664
+        width: 8
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a475015e30fa2d440800000000000000
+      internalID: 4959218570951153482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gobcnam_3
+      rect:
+        serializedVersion: 2
+        x: 1172
+        y: 663
+        width: 68
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02a905a2434d75790800000000000000
+      internalID: -7541325730495292896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gobcnam_4
+      rect:
+        serializedVersion: 2
+        x: 1284
+        y: 663
+        width: 69
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8ad631e4858bad90800000000000000
+      internalID: -7085422782976697716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gobcnam_5
+      rect:
+        serializedVersion: 2
+        x: 1371
+        y: 663
+        width: 71
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b3640d4794e41880800000000000000
+      internalID: -8641030446533811273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gobcnam_6
+      rect:
+        serializedVersion: 2
+        x: 1459
+        y: 663
+        width: 84
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 687c2797723990760800000000000000
+      internalID: 7424627258447546246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gobcnam_7
+      rect:
+        serializedVersion: 2
+        x: 1554
+        y: 663
+        width: 134
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66deedf8a0fa5e0e0800000000000000
+      internalID: -2241192779648668314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gobcnam_8
+      rect:
+        serializedVersion: 2
+        x: 1479
+        y: 624
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 678763a8d3fe34b20800000000000000
+      internalID: 3117598414661384310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gobcnam_9
+      rect:
+        serializedVersion: 2
+        x: 1608
+        y: 624
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef40682ac0fac6180800000000000000
+      internalID: -9120722676530936578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gobcnam_10
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 535
+        width: 40
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46fffb3b56910ee20800000000000000
+      internalID: 3377727645125967716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gobcnam_11
+      rect:
+        serializedVersion: 2
+        x: 597
+        y: 509
+        width: 38
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af3c73d80c4337fe0800000000000000
+      internalID: -1192551474715442182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gobcnam_12
+      rect:
+        serializedVersion: 2
+        x: 642
+        y: 535
+        width: 27
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05a150455959d9510800000000000000
+      internalID: 1557565514732345936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gobcnam_13
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 535
+        width: 23
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8567f94f12d443a50800000000000000
+      internalID: 6499904970435819096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gobcnam_14
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 535
+        width: 21
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86189f74923443000800000000000000
+      internalID: 14710543369208168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gobcnam_15
+      rect:
+        serializedVersion: 2
+        x: 747
+        y: 535
+        width: 9
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2f6faa0f41685b80800000000000000
+      internalID: -8405861712377450709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gobcnam_16
+      rect:
+        serializedVersion: 2
+        x: 765
+        y: 509
+        width: 35
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b71f0703da4a1a350800000000000000
+      internalID: 6026278840147439995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gobcnam_17
+      rect:
+        serializedVersion: 2
+        x: 811
+        y: 535
+        width: 26
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3cf568f1f2121530800000000000000
+      internalID: 3824139864054823998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gobcnam_18
+      rect:
+        serializedVersion: 2
+        x: 1353
+        y: 561
+        width: 47
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e56b052c76c5dafd0800000000000000
+      internalID: -2329103831569222050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gobcnam_19
+      rect:
+        serializedVersion: 2
+        x: 1414
+        y: 561
+        width: 47
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0dee7515fe6c0c9b0800000000000000
+      internalID: -5061827250000236848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gobcnam_20
+      rect:
+        serializedVersion: 2
+        x: 1469
+        y: 542
+        width: 21
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01e9b8f3ecbc4df80800000000000000
+      internalID: -8082611344533381616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gobcnam_21
+      rect:
+        serializedVersion: 2
+        x: 1507
+        y: 561
+        width: 84
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4bf0476fa418380d0800000000000000
+      internalID: -3421749132909080652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gobcnam_22
+      rect:
+        serializedVersion: 2
+        x: 1608
+        y: 561
+        width: 10
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f38a5a66ddab1a6a0800000000000000
+      internalID: -6439660532090427329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gobcnam_23
+      rect:
+        serializedVersion: 2
+        x: 1637
+        y: 561
+        width: 47
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ee68893987b50900800000000000000
+      internalID: 650127521228549860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gobcnam_24
+      rect:
+        serializedVersion: 2
+        x: 647
+        y: 502
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f85648fecae9a680800000000000000
+      internalID: -8743199026913584903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gobcnam_25
+      rect:
+        serializedVersion: 2
+        x: 665
+        y: 502
+        width: 21
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7825c7039dc34d420800000000000000
+      internalID: 2653812983947088519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gobcnam_26
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 502
+        width: 28
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b67b7e48e64eaa7a0800000000000000
+      internalID: -6365023960007461013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gobcnam_27
+      rect:
+        serializedVersion: 2
+        x: 722
+        y: 502
+        width: 17
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71de69b5dfd75f0b0800000000000000
+      internalID: -5695507626623308521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      gobcnam_0: 3025698479617162920
+      gobcnam_1: -4049482446715212754
+      gobcnam_10: 3377727645125967716
+      gobcnam_11: -1192551474715442182
+      gobcnam_12: 1557565514732345936
+      gobcnam_13: 6499904970435819096
+      gobcnam_14: 14710543369208168
+      gobcnam_15: -8405861712377450709
+      gobcnam_16: 6026278840147439995
+      gobcnam_17: 3824139864054823998
+      gobcnam_18: -2329103831569222050
+      gobcnam_19: -5061827250000236848
+      gobcnam_2: 4959218570951153482
+      gobcnam_20: -8082611344533381616
+      gobcnam_21: -3421749132909080652
+      gobcnam_22: -6439660532090427329
+      gobcnam_23: 650127521228549860
+      gobcnam_24: -8743199026913584903
+      gobcnam_25: 2653812983947088519
+      gobcnam_26: -6365023960007461013
+      gobcnam_27: -5695507626623308521
+      gobcnam_3: -7541325730495292896
+      gobcnam_4: -7085422782976697716
+      gobcnam_5: -8641030446533811273
+      gobcnam_6: 7424627258447546246
+      gobcnam_7: -2241192779648668314
+      gobcnam_8: 3117598414661384310
+      gobcnam_9: -9120722676530936578
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

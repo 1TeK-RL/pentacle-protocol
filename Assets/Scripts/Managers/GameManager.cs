@@ -8,9 +8,13 @@ public class GameManager : MonoBehaviour
 
     private Dictionary<string, bool> worldStates = new();
 
+    public bool guardianQuestIsDone = false;
+    public bool nurseQuestIsDone = false;
+
 
     [Header("Collectible Item for demo")]
     [SerializeField] private CollectibleItem spoonItem;
+    [SerializeField] private CollectibleItem coinItem;
 
     private Dictionary<CollectibleItem, InventoryState> inventory;
 
@@ -34,6 +38,8 @@ public class GameManager : MonoBehaviour
 
         // Initialize inventory with starting items for debug
         AddItem(spoonItem);
+        //AddItem(coinItem);
+        //ChangeItemState(coinItem, InventoryState.Pentacled);
     }
 
     public void DebugThis(string message)

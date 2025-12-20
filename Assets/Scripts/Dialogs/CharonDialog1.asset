@@ -12,6 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8528a1847f61d1c438dc874d4aed6a16, type: 3}
   m_Name: CharonDialog1
   m_EditorClassIdentifier: 
+  interlocutorName: Charon
+  onStart:
+    m_PersistentCalls:
+      m_Calls: []
   lines:
   - npcText: "Welcome, wandering user\u2026 to the threshold of the Infernet. I am
       Charon, ferryman of the forgotten files. I can bring you to the <color=#00bcff>The
@@ -48,8 +52,8 @@ MonoBehaviour:
       onSelected:
         m_PersistentCalls:
           m_Calls: []
-  - npcText: Well I fear I can't drive you where you want... I can drop you by this
-      <color=#00bcff>Hospital</color>.
+  - npcText: Well I fear I can't drive you where you want... I can leave you by this
+      <color=#00bcff>Hospital</color>. Get out now.
     answers:
     - text: (Leave the car)
       nextLineIndex: -1
@@ -68,4 +72,3 @@ MonoBehaviour:
               m_StringArgument: 
               m_BoolArgument: 0
             m_CallState: 2
-  interlocutorName: Charon

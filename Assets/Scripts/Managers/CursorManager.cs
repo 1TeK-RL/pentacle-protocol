@@ -11,6 +11,7 @@ public class CursorManager : MonoBehaviour
     [SerializeField] private Texture2D leftCursor;
     [SerializeField] private Texture2D dialogCursor;
     [SerializeField] private Texture2D InteractCursor;
+    [SerializeField] private Texture2D CrossCursor;
 
     private void Awake()
     {
@@ -52,6 +53,9 @@ public class CursorManager : MonoBehaviour
                 break;
             case CursorType.Interact:
                 Cursor.SetCursor(InteractCursor, Vector2.zero, CursorMode.Auto);
+                break;
+            case CursorType.Cross:
+                Cursor.SetCursor(CrossCursor, Vector2.zero, CursorMode.Auto);
                 break;
             default:
                 Cursor.SetCursor(defaultCursor, Vector2.zero, CursorMode.Auto);

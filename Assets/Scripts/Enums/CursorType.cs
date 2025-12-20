@@ -6,5 +6,6 @@ public enum CursorType
     Backward,
     Left,
     Dialog,
-    Interact
+    Interact,
+    Cross
 }

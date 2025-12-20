@@ -9,6 +9,10 @@ public class InteractablesManager : MonoBehaviour
     private void OnEnable()
     {
         EventManager.Instance.OnMouthDoorOpen += MouthDoorOpen;
+        if (GameManager.Instance.GetWorldState("MouthDoor"))
+        {
+            mouthDoor.OpenDoor();
+        }
     }
 
     private void OnDisable()

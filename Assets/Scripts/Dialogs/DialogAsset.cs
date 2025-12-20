@@ -6,9 +6,14 @@ using UnityEngine.UI;
 [CreateAssetMenu(fileName = "NewDialog", menuName = "Dialog/Dialog Asset")]
 public class DialogAsset : ScriptableObject
 {
+    public string interlocutorName;
+    public UnityEngine.Events.UnityEvent onStart;
     public List<DialogLine> lines = new List<DialogLine>();
 
-    public string interlocutorName; 
+
+
+
+
     public void DebugThis(string message)
     {
         GameManager.Instance.DebugThis(message);
@@ -29,6 +34,16 @@ public class DialogAsset : ScriptableObject
         EventManager.Instance.ChangeAnimationFrames(frames);
     }
 
+    public void SetGuardianQuestState(bool state)
+    {
+        GameManager.Instance.guardianQuestIsDone = state;
+    }
+
+    public void SetNurseQuestState(bool state)
+    {
+        GameManager.Instance.nurseQuestIsDone = state;
+    }
+
     public void PlaySoundEye()
     {
         AudioManager.Instance.PlaySpoonEyeSound();
@@ -41,6 +56,7 @@ public class DialogAsset : ScriptableObject
         AudioManager.Instance.SetHospitalAmbiance();
         AudioManager.Instance.StartAmbiance();
     }
+
 }
 
 [Serializable]

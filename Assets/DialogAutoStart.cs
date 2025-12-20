@@ -9,7 +9,10 @@ public class DialogAutoStart : MonoBehaviour
     private DialogAsset AlternativeDialog;
 
     [SerializeField]
-    private GameObject previousPOV;
+    private GameObject hospitalPOV;
+
+    [SerializeField]
+    private GameObject prisonPOV;
 
     [SerializeField]
     private CollectibleItem itemToCheck;
@@ -24,14 +27,16 @@ public class DialogAutoStart : MonoBehaviour
         {
             dialogManager.SetInterlocutorSprite(interlocutorSprite);
             dialogManager.SetCharonVoice();
-            dialogManager.SetPreviousPOV(previousPOV);
+            dialogManager.SetPreviousPOV(hospitalPOV);
             if (itemToCheck != null && GameManager.Instance.IsItemPentacled(itemToCheck))
             {
                 dialogManager.StartDialog(AlternativeDialog);
+                dialogManager.SetPreviousPOV(prisonPOV);
             }
             else
             {
                 dialogManager.StartDialog(dialogToStart);
+                dialogManager.SetPreviousPOV(hospitalPOV);
             }
         }
 
