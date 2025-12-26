@@ -1,5 +1,6 @@
 using FMOD.Studio;
 using FMODUnity;
+using System.Collections;
 using UnityEngine;
 
 public class AudioManager : MonoBehaviour
@@ -109,10 +110,20 @@ public class AudioManager : MonoBehaviour
 
     public void StopDialogVoice()
     {
-        if (instanceDialog.isValid())
-        {
-            instanceDialog.stop(FMOD.Studio.STOP_MODE.ALLOWFADEOUT);
-        }
+        if (!instanceDialog.isValid())
+            return;
+
+        StartCoroutine(StopDialogVoiceDelayed());
+    }
+
+    private IEnumerator StopDialogVoiceDelayed()
+    {
+        yield return new WaitForSeconds(2f);
+
+        if (!instanceDialog.isValid())
+            yield break;
+
+        instanceDialog.stop(FMOD.Studio.STOP_MODE.ALLOWFADEOUT);
     }
 
     public void ReleaseDialogVoice()

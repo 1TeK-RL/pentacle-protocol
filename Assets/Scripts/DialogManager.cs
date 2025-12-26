@@ -101,6 +101,9 @@ public class DialogManager : MonoBehaviour
     {
         currentLine = currentDialog.lines[currentIndex].npcText;
 
+        // start the voice
+        AudioManager.Instance.StartDialogVoice();
+
 
         // Hide Buttons and the arrow, they will be activated later
         foreach (var button in answerButtons)
@@ -115,6 +118,8 @@ public class DialogManager : MonoBehaviour
 
     private void DisplayAnswers()
     {
+        // stop the voice 
+        AudioManager.Instance.StopDialogVoice();
 
         int i = 0;
 
