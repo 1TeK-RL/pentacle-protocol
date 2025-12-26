@@ -54,7 +54,7 @@ MonoBehaviour:
         m_PersistentCalls:
           m_Calls: []
   - npcText: If you find a way to bring this <color=#FFFF00>coin.dev</color> down
-      there in the Infernet, Charon will be plesaed to take you wherever you want.
+      there in the Infernet, Charon will be pleased to take you wherever you want.
     answers:
     - text: Thank you.
       nextLineIndex: -1

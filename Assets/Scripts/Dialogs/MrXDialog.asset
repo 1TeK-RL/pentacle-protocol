@@ -12,6 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8528a1847f61d1c438dc874d4aed6a16, type: 3}
   m_Name: MrXDialog
   m_EditorClassIdentifier: 
+  interlocutorName: ???????
+  onStart:
+    m_PersistentCalls:
+      m_Calls: []
   lines:
   - npcText: Hum... What do you want ?
     answers:
@@ -35,15 +39,15 @@ MonoBehaviour:
       onSelected:
         m_PersistentCalls:
           m_Calls: []
-  - npcText: "I am... Huh, wait... I didn\u2019t bother to give myself a name around
-      here, don\u2019t even need it.\nI guess you can find me on LinkedIn."
+  - npcText: "I am... Huh, wait... I never bothered giving myself a name around here,
+      don\u2019t even need it.\nI guess you can find me on LinkedIn."
     answers:
     - text: Oh, ok...
       nextLineIndex: -1
       onSelected:
         m_PersistentCalls:
           m_Calls: []
-  - npcText: "You shouldn\u2019t stuff your nose in other people\u2019s busyness.\LI
+  - npcText: "You shouldn\u2019t stuff your nose in other people\u2019s business.\LI
       have some appointment, obviously."
     answers:
     - text: Oh, ok...
@@ -59,4 +63,3 @@ MonoBehaviour:
       onSelected:
         m_PersistentCalls:
           m_Calls: []
-  interlocutorName: ???????

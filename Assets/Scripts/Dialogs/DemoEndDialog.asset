@@ -17,10 +17,10 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   lines:
-  - npcText: Wow, you made it until here, quite impressive... Unfortunately, this
-      is the end of the Demo. Thank you for stepping into the Infernet, I'm sure
-      you understand the potential of the Pentacle Protocol software. Who knows,
-      maybe we ill eachother again...
+  - npcText: Wow, you made it here, quite impressive... Unfortunately, this is the
+      end of the Demo. Thank you for stepping into the Infernet, I'm sure you understand
+      the potential of the Pentacle Protocol software. Who knows, maybe we'll see
+      eachother again...
     answers:
     - text: Wait no...
       nextLineIndex: -1
@@ -37,8 +37,8 @@ MonoBehaviour:
       onSelected:
         m_PersistentCalls:
           m_Calls: []
-  - npcText: Yes you can, They have a page on Itch.io called Pentacle Protocol, it
-      will be esay to contact them.
+  - npcText: Yes you can, They have a page on Itch.io called Pentacle Protocol, you
+      will find their contact there.
     answers:
     - text: Thank you.
       nextLineIndex: -1
