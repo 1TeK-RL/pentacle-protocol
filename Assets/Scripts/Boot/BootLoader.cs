@@ -8,7 +8,9 @@ public class BootLoader : MonoBehaviour
     {
         await LoadCoreScenes();
 
-        await EventManager.Instance.SceneLoader.PlayCutsceneAsync("Intro", "DeskScene");
+        await SceneManager.LoadSceneAsync("MenuScene", LoadSceneMode.Additive).ToTask();
+
+        //await EventManager.Instance.SceneLoader.PlayCutsceneAsync("Intro", "DeskScene");
     }
 
     private Task LoadCoreScenes()

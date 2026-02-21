@@ -11,6 +11,8 @@ public class GoOutButton : MonoBehaviour
         if (button != null)
         {
             button.onClick.AddListener(OnClick);
+
+
         }
     }
 
@@ -23,4 +25,5 @@ public class GoOutButton : MonoBehaviour
         CursorManager.Instance.SetCursorType(CursorType.Default);
         await EventManager.Instance.SceneLoader.PlayCutsceneAsync("GoOut", "DeskScene");
     }
+
 }
