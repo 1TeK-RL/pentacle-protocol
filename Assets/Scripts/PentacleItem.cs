@@ -3,7 +3,7 @@ using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
 
-public class PentacleItem : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragHandler, IPointerClickHandler, IPointerEnterHandler, IPointerDownHandler
+public class PentacleItem : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragHandler, IPointerClickHandler, IPointerEnterHandler, IPointerDownHandler, IPointerUpHandler
 {
 
     [SerializeField]
@@ -17,6 +17,9 @@ public class PentacleItem : MonoBehaviour, IBeginDragHandler, IDragHandler, IEnd
 
     private CollectibleItem itemData;
 
+    private Vector3 _originalPosition;
+    private bool _wasDragged;
+
     private void Awake()
     {
         canvas = GetComponentInParent<Canvas>();
@@ -24,6 +27,8 @@ public class PentacleItem : MonoBehaviour, IBeginDragHandler, IDragHandler, IEnd
 
     public void OnBeginDrag(PointerEventData eventData)
     {
+        _wasDragged = true;
+
         parentAfterDrag = transform.parent;
         transform.SetParent(canvas.transform);
         transform.SetAsLastSibling();
@@ -40,6 +45,7 @@ public class PentacleItem : MonoBehaviour, IBeginDragHandler, IDragHandler, IEnd
         AudioManager.Instance.PlayUIDrop();
 
         transform.SetParent(parentAfterDrag);
+        transform.localPosition = Vector3.zero;
         image.raycastTarget = true;
     }
 
@@ -78,5 +84,18 @@ public class PentacleItem : MonoBehaviour, IBeginDragHandler, IDragHandler, IEnd
     public void OnPointerDown(PointerEventData eventData)
     {
         AudioManager.Instance.PlayUIClick();
+
+        _originalPosition = transform.position;
+        _wasDragged = false;
+
+        transform.position = Input.mousePosition;
+    }
+
+    public void OnPointerUp(PointerEventData eventData)
+    {
+        if (!_wasDragged)
+        {
+            transform.position = _originalPosition;
+        }
     }
 }
