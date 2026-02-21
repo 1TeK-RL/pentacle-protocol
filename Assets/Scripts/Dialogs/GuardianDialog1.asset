@@ -42,8 +42,8 @@ MonoBehaviour:
       onSelected:
         m_PersistentCalls:
           m_Calls: []
-  - npcText: "Haha alright, keep your secrets, man. Sometimes it\u2019 a good thing
-      to keep your infos... private. But..."
+  - npcText: "Haha alright, keep your secrets, man. Sometimes it\u2019s a good thing
+      to keep your data... private. But..."
     answers:
     - text: (Next)
       nextLineIndex: 3
