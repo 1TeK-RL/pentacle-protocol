@@ -104,7 +104,14 @@ public class AudioManager : MonoBehaviour
     {
         if (instanceDialog.isValid())
         {
-            instanceDialog.start();
+            instanceDialog.getPaused(out bool isPaused);
+            if (isPaused)
+            {
+                instanceDialog.setPaused(false);
+                return;
+            }
+            else
+                instanceDialog.start();
         }
     }
 
@@ -123,7 +130,8 @@ public class AudioManager : MonoBehaviour
         if (!instanceDialog.isValid())
             yield break;
 
-        instanceDialog.stop(FMOD.Studio.STOP_MODE.ALLOWFADEOUT);
+        //instanceDialog.stop(FMOD.Studio.STOP_MODE.ALLOWFADEOUT);
+        instanceDialog.setPaused(true);
     }
 
     public void ReleaseDialogVoice()
