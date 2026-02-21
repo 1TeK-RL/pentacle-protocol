@@ -17,4 +17,15 @@ public class MenuManager : MonoBehaviour
         await SceneManager.UnloadSceneAsync("MenuScene").ToTask();
         await EventManager.Instance.SceneLoader.PlayCutsceneAsync("Intro", "DeskScene");
     }
+
+
+    public void PlayClickSound()
+    {
+        AudioManager.Instance.PlayUIClick();
+    }
+
+    public void PlayHoverSound()
+    {
+        AudioManager.Instance.PlayUIHover();
+    }
 }

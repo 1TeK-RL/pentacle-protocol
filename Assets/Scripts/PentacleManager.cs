@@ -77,7 +77,13 @@ public class PentacleManager : MonoBehaviour
     /// </summary>
     public void StartPentagramProtocol()
     {
+        AudioManager.Instance.PlayUIClick(); 
         StartCoroutine(PentagramProtocolRoutine());
+    }
+
+    public void PlayHoverSound()
+    {
+        AudioManager.Instance.PlayUIHover();
     }
 
     private IEnumerator PentagramProtocolRoutine()
