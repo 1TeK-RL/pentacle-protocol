@@ -2023,19 +2023,23 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 77942282115874421, guid: 9ecaa99fa43d5f3498f2cbf4cd51f195, type: 3}
       propertyPath: m_LocalScale.x
-      value: 5.132906
+      value: 8.013643
       objectReference: {fileID: 0}
     - target: {fileID: 77942282115874421, guid: 9ecaa99fa43d5f3498f2cbf4cd51f195, type: 3}
       propertyPath: m_LocalScale.y
-      value: 5.132906
+      value: 8.013643
       objectReference: {fileID: 0}
     - target: {fileID: 77942282115874421, guid: 9ecaa99fa43d5f3498f2cbf4cd51f195, type: 3}
       propertyPath: m_LocalScale.z
-      value: 5.132906
+      value: 8.013643
+      objectReference: {fileID: 0}
+    - target: {fileID: 77942282115874421, guid: 9ecaa99fa43d5f3498f2cbf4cd51f195, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 77942282115874421, guid: 9ecaa99fa43d5f3498f2cbf4cd51f195, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -7.19
+      value: -9.24
       objectReference: {fileID: 0}
     - target: {fileID: 77942282115874421, guid: 9ecaa99fa43d5f3498f2cbf4cd51f195, type: 3}
       propertyPath: m_ConstrainProportionsScale
@@ -2083,7 +2087,7 @@ PrefabInstance:
       objectReference: {fileID: 1703301305}
     - target: {fileID: 8852335856565651994, guid: 9ecaa99fa43d5f3498f2cbf4cd51f195, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -188.4
+      value: -214.7
       objectReference: {fileID: 0}
     - target: {fileID: 8852335856565651994, guid: 9ecaa99fa43d5f3498f2cbf4cd51f195, type: 3}
       propertyPath: m_LocalPosition.y
@@ -3372,23 +3376,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2495592292533874399, guid: e330d9cee565aaf42bbb6689324ded6d, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.04668757
+      value: 0.040202666
       objectReference: {fileID: 0}
     - target: {fileID: 2495592292533874399, guid: e330d9cee565aaf42bbb6689324ded6d, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.04668757
+      value: 0.040202666
       objectReference: {fileID: 0}
     - target: {fileID: 2495592292533874399, guid: e330d9cee565aaf42bbb6689324ded6d, type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.04668757
+      value: 0.040202666
       objectReference: {fileID: 0}
     - target: {fileID: 2495592292533874399, guid: e330d9cee565aaf42bbb6689324ded6d, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.14
+      value: -0.126
       objectReference: {fileID: 0}
     - target: {fileID: 2495592292533874399, guid: e330d9cee565aaf42bbb6689324ded6d, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.4
+      value: 1.078
       objectReference: {fileID: 0}
     - target: {fileID: 2495592292533874399, guid: e330d9cee565aaf42bbb6689324ded6d, type: 3}
       propertyPath: m_LocalPosition.z
@@ -3427,6 +3431,10 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3407425625004795673, guid: e330d9cee565aaf42bbb6689324ded6d, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3407425625004795673, guid: e330d9cee565aaf42bbb6689324ded6d, type: 3}
       propertyPath: m_SpriteTilingProperty.pivot.x
       value: 0.5
       objectReference: {fileID: 0}
@@ -3444,11 +3452,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3407425625004795673, guid: e330d9cee565aaf42bbb6689324ded6d, type: 3}
       propertyPath: m_SpriteTilingProperty.oldSize.x
-      value: 40.799995
+      value: 20.850567
       objectReference: {fileID: 0}
     - target: {fileID: 3407425625004795673, guid: e330d9cee565aaf42bbb6689324ded6d, type: 3}
       propertyPath: m_SpriteTilingProperty.oldSize.y
-      value: 22.96992
+      value: 16.880001
       objectReference: {fileID: 0}
     - target: {fileID: 3407425625004795673, guid: e330d9cee565aaf42bbb6689324ded6d, type: 3}
       propertyPath: m_Points.m_Paths.Array.data[0].Array.size
@@ -3612,8 +3620,8 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 7864990952182497533, guid: 8ae44b088f82c024388df6f1abc5bf60, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Sprite: {fileID: 7864990952182497533, guid: 1f94f345ae892e64c9572f70e2bad510, type: 3}
+  m_Color: {r: 0.8396226, g: 0.8396226, b: 0.8396226, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -9666,23 +9674,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2495592292533874399, guid: e330d9cee565aaf42bbb6689324ded6d, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.22577858
+      value: 0.30380577
       objectReference: {fileID: 0}
     - target: {fileID: 2495592292533874399, guid: e330d9cee565aaf42bbb6689324ded6d, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.22577858
+      value: 0.30380577
       objectReference: {fileID: 0}
     - target: {fileID: 2495592292533874399, guid: e330d9cee565aaf42bbb6689324ded6d, type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.22577858
+      value: 0.30380577
       objectReference: {fileID: 0}
     - target: {fileID: 2495592292533874399, guid: e330d9cee565aaf42bbb6689324ded6d, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.12
+      value: 0.46
       objectReference: {fileID: 0}
     - target: {fileID: 2495592292533874399, guid: e330d9cee565aaf42bbb6689324ded6d, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.27
+      value: -0.76
       objectReference: {fileID: 0}
     - target: {fileID: 2495592292533874399, guid: e330d9cee565aaf42bbb6689324ded6d, type: 3}
       propertyPath: m_LocalPosition.z
@@ -9908,7 +9916,7 @@ SpriteRenderer:
   m_SortingLayerID: -1327669119
   m_SortingLayer: 1
   m_SortingOrder: 0
-  m_Sprite: {fileID: 7864990952182497533, guid: 8ae44b088f82c024388df6f1abc5bf60, type: 3}
+  m_Sprite: {fileID: 7864990952182497533, guid: 1f94f345ae892e64c9572f70e2bad510, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
