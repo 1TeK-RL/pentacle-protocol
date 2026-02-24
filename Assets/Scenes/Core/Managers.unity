@@ -249,6 +249,13 @@ MonoBehaviour:
       Data3: -1039202378
       Data4: -1875361663
     Path: event:/Car's sound
+  menuAmbiance:
+    Guid:
+      Data1: 1330314598
+      Data2: 1134769063
+      Data3: -146305633
+      Data4: -2069466921
+    Path: event:/Music_menu
 --- !u!1 &1329570293
 GameObject:
   m_ObjectHideFlags: 0

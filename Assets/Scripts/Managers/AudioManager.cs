@@ -14,6 +14,7 @@ public class AudioManager : MonoBehaviour
 
     [SerializeField] private EventReference hospitalAmbiance;
     [SerializeField] private EventReference carAmbiance;
+    [SerializeField] private EventReference menuAmbiance;
 
     private EventInstance instanceDialog;
     private EventInstance instanceAmbiance;
@@ -150,6 +151,11 @@ public class AudioManager : MonoBehaviour
     public void SetHospitalAmbiance()
     {
         instanceAmbiance = RuntimeManager.CreateInstance(hospitalAmbiance);
+    }
+
+    public void SetMenuAmbiance()
+    {
+        instanceAmbiance = RuntimeManager.CreateInstance(menuAmbiance);
     }
 
     public void StartAmbiance()

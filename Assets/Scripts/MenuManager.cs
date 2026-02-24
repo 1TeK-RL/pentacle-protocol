@@ -6,6 +6,12 @@ using UnityEngine.SceneManagement;
 
 public class MenuManager : MonoBehaviour
 {
+    public void Start()
+    {
+        AudioManager.Instance.SetMenuAmbiance();
+        AudioManager.Instance.StartAmbiance();
+    }
+
     public void QuitGame()
     {
         Application.Quit();
@@ -13,11 +19,13 @@ public class MenuManager : MonoBehaviour
 
     public async void StartGame()
     {
+        AudioManager.Instance.StopAmbiance();
+        AudioManager.Instance.ReleaseAmbiance();
+
         //close this scene
         await SceneManager.UnloadSceneAsync("MenuScene").ToTask();
         await EventManager.Instance.SceneLoader.PlayCutsceneAsync("Intro", "DeskScene");
     }
-
 
     public void PlayClickSound()
     {
