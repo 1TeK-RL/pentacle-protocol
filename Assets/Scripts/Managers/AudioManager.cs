@@ -19,6 +19,10 @@ public class AudioManager : MonoBehaviour
     private EventInstance instanceDialog;
     private EventInstance instanceAmbiance;
 
+    [SerializeField] private float _pauseDelay = 2f;
+
+    private Coroutine _pauseRoutine;
+
     private void Awake()
     {
         if (Instance != null && Instance != this)
@@ -101,47 +105,87 @@ public class AudioManager : MonoBehaviour
         instanceDialog = RuntimeManager.CreateInstance(heartbeatVoiceEvent);
     }
 
+
+
+    /// <summary>
+    /// Resume or start dialog voice
+    /// </summary>
     public void StartDialogVoice()
     {
-        if (instanceDialog.isValid())
+        if (!instanceDialog.isValid())
+            return;
+
+        // Cancel pending pause
+        CancelDelayedPause();
+
+        instanceDialog.getPaused(out bool isPaused);
+
+        if (isPaused)
         {
-            instanceDialog.getPaused(out bool isPaused);
-            if (isPaused)
-            {
-                instanceDialog.setPaused(false);
-                return;
-            }
-            else
-                instanceDialog.start();
+            instanceDialog.setPaused(false);
+            return;
+        }
+
+        instanceDialog.getPlaybackState(out PLAYBACK_STATE state);
+
+        if (state == PLAYBACK_STATE.STOPPED)
+        {
+            instanceDialog.start();
         }
     }
 
+    /// <summary>
+    /// Request a delayed pause
+    /// </summary>
     public void StopDialogVoice()
     {
         if (!instanceDialog.isValid())
             return;
 
-        StartCoroutine(StopDialogVoiceDelayed());
+        if (_pauseRoutine != null)
+            return; // already waiting
+
+        _pauseRoutine = StartCoroutine(PauseDelayed());
     }
 
-    private IEnumerator StopDialogVoiceDelayed()
+    /// <summary>
+    /// Pause after delay
+    /// </summary>
+    private IEnumerator PauseDelayed()
     {
-        yield return new WaitForSeconds(2f);
+        yield return new WaitForSeconds(_pauseDelay);
 
-        if (!instanceDialog.isValid())
-            yield break;
-
-        //instanceDialog.stop(FMOD.Studio.STOP_MODE.ALLOWFADEOUT);
-        instanceDialog.setPaused(true);
-    }
-
-    public void ReleaseDialogVoice()
-    {
         if (instanceDialog.isValid())
         {
-            instanceDialog.release();
+            instanceDialog.getPaused(out bool isPaused);
+
+            if (!isPaused)
+                instanceDialog.setPaused(true);
         }
+
+        _pauseRoutine = null;
     }
+
+    /// <summary>
+    /// Cancel any pending delayed pause
+    /// </summary>
+    private void CancelDelayedPause()
+    {
+        if (_pauseRoutine == null)
+            return;
+
+        StopCoroutine(_pauseRoutine);
+        _pauseRoutine = null;
+    }
+
+    public void ReleaseDialogVoice() 
+    { 
+        if (instanceDialog.isValid()) 
+        { 
+            instanceDialog.release(); 
+        } 
+    }
+
 
     public void SetCarAmbiance()
     {
